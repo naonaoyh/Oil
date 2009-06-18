@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.date = %q{2009-03-31}
   s.description = %q{Oil is a RAILS based mini language for Financial Applications}
   s.email = %q{garymawdsley@gmail.com}
-  s.files = ["lib/*.rb","lib/xslt/*.xsl"]
+  s.files = ["lib/CollesceProductInterpreter.rb","lib/RailsProcessInterpreter.rb","lib/CoverageInterpreter2.rb","lib/RatingEngineResolver.rb","lib/CoverageInterpreter.rb","lib/SiteProcessInterpreter.rb","lib/DataModelInterpreter.rb","lib/VPMSComponentSchemaInterpreter.rb","lib/DSLContext.rb","lib/VPMSPackageSchemaInterpreter.rb","lib/Element.rb","lib/VPMSProductSchemaInterpreter.rb","lib/LayoutInterpreter.rb","lib/VPMSSchemaInterpreter.rb","lib/ProductInterpreter2.rb","lib/xslt/VPMSPackageSchemaInterpreter.xsl","lib/xslt/VPMSSchemaInterpreter.xsl"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/iab/Oil}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]

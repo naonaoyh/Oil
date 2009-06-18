@@ -1,0 +1,7 @@
+coverage :BuildingsCover
+    use :CoverDetail,:SumInsured
+	use :CoverDetail,:DayOnePercent
+	use :CoverDetail,:PremiumQuoteBreakdown,:GrossAmount
+	use :CoverDetail,:PremiumQuoteBreakdown,:Percent
+	use :CoverDetail,:AdjustmentMethodCode
+endcoverage

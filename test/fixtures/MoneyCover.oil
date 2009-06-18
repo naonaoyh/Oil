@@ -1,0 +1,6 @@
+coverage :MoneyCover
+    use :CoverDetail,:SumInsured
+    use :CoverDetail,:FrequencyOfBanking,:Code
+	use :CoverDetail,:PremiumQuoteBreakdown,:GrossAmount
+	use :CoverDetail,:PremiumQuoteBreakdown,:BrokerageAmount
+endcoverage

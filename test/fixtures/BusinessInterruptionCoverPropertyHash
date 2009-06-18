@@ -1,0 +1,692 @@
+BusinessInterruptionCover: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+BusinessInterruptionCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessInterruptionCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverRequiredInd/Value"
+BusinessInterruptionCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail"
+  IndemnityPeriod: ""
+  IndemnityPeriodMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+BusinessInterruptionCoverCoverDetailBasisCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/BasisCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessInterruptionCoverCoverDetailBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/BasisCode/Value"
+BusinessInterruptionCoverCoverDetailBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/BasisCode/ShortDescription"
+BusinessInterruptionCoverCoverDetailBasisCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/BasisCode/Description"
+BusinessInterruptionCoverCoverDetailPremises: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Premises"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessInterruptionCoverCoverDetailPremisesId: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Premises/Id"
+BusinessInterruptionCoverCoverDetailPremisesAddress: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Premises/Address"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+BusinessInterruptionCoverCoverDetailPremisesAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Premises/Address/Postcode"
+BusinessInterruptionCoverCoverDetailPerils: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Perils"
+BusinessInterruptionCoverCoverDetailPerilsCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Perils/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BusinessInterruptionCoverCoverDetailPerilsCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Perils/Code/Value"
+BusinessInterruptionCoverCoverDetailPerilsCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Perils/Code/ShortDescription"
+BusinessInterruptionCoverCoverDetailAdjustmentMethodCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/AdjustmentMethodCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessInterruptionCoverCoverDetailAdjustmentMethodCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/AdjustmentMethodCode/Value"
+BusinessInterruptionCoverCoverDetailAdjustmentMethodCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/AdjustmentMethodCode/ShortDescription"
+BusinessInterruptionCoverCoverDetailAdjustmentMethodCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/AdjustmentMethodCode/Description"
+BusinessInterruptionCoverCoverDetailIndemnityPeriod: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/IndemnityPeriod"
+BusinessInterruptionCoverCoverDetailExcessPeriod: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/ExcessPeriod"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+BusinessInterruptionCoverCoverDetailExcessPeriodUnit: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/ExcessPeriod/Unit"
+BusinessInterruptionCoverCoverDetailExcessPeriodType: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/ExcessPeriod/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BusinessInterruptionCoverCoverDetailExcessPeriodTypeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/ExcessPeriod/Type/Value"
+BusinessInterruptionCoverCoverDetailExcessPeriodTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/ExcessPeriod/Type/ShortDescription"
+BusinessInterruptionCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+BusinessInterruptionCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/SumInsured/Amount"
+BusinessInterruptionCoverCoverDetailSumInsuredPercent: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/SumInsured/Percent"
+BusinessInterruptionCoverCoverDetailExcess: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+BusinessInterruptionCoverCoverDetailExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Excess/Amount"
+BusinessInterruptionCoverCoverDetailEndorsement: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessInterruptionCoverCoverDetailEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Endorsement/ReasonApplied"
+BusinessInterruptionCoverCoverDetailEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Endorsement/ShortWording"
+BusinessInterruptionCoverCoverDetailEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Endorsement/Wording"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  CalculationAmount: ""
+  CalculationAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BasedOnAmount: ""
+  BasedOnAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  RunningTotal: ""
+  RunningTotalMD: !map:HashWithIndifferentAccess
+    type: "number"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownTypeCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/TypeCode/Value"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/TypeCode/ShortDescription"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownReasonCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/ReasonCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownReasonCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/ReasonCode/Value"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownReasonCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/ReasonCode/ShortDescription"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownReasonCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/ReasonCode/Description"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownPercent: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/Percent"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownCalculationAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/CalculationAmount"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownBasedOnAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/BasedOnAmount"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownRunningTotal: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/RunningTotal"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownDisplayFlagInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/DisplayFlagInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownDisplayFlagIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/DisplayFlagInd/Value"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/GrossAmount"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/Amount"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/BrokerageAmount"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/BrokeragePercent"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/IPTAmount"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/IPTPercent"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessInterruptionCoverCoverDetailPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd/Value"
+BusinessInterruptionCoverCoverDetailNotes: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Notes"
+BusinessInterruptionCoverCoverDetailInformation: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessInterruptionCoverCoverDetailInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Information/Description"
+BusinessInterruptionCoverCoverDetailAttachment: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Attachment"
+  URI: ""
+  URIMD: !map:HashWithIndifferentAccess
+    type: ""
+BusinessInterruptionCoverCoverDetailAttachmentURI: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/CoverDetail/Attachment/URI"
+BusinessInterruptionCoverBasisCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/BasisCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessInterruptionCoverBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/BasisCode/Value"
+BusinessInterruptionCoverBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/BasisCode/ShortDescription"
+BusinessInterruptionCoverBasisCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/BasisCode/Description"
+BusinessInterruptionCoverDeclaration: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Declaration"
+BusinessInterruptionCoverDeclarationContingencyPlanInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Declaration/ContingencyPlanInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessInterruptionCoverDeclarationContingencyPlanIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Declaration/ContingencyPlanInd/Value"
+BusinessInterruptionCoverAdditionalCover: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover"
+  IndemnityPeriod: ""
+  IndemnityPeriodMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+BusinessInterruptionCoverAdditionalCoverCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BusinessInterruptionCoverAdditionalCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/Code/Value"
+BusinessInterruptionCoverAdditionalCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/Code/ShortDescription"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplier: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierIndividualName: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/IndividualName/TitleCode/Value"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/IndividualName/TitleCode/ShortDescription"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/IndividualName/FirstForename"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/IndividualName/Surname"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierCompanyName: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/CompanyName"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierAddress: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/Address"
+  Line1: ""
+  Line1MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line2: ""
+  Line2MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line3: ""
+  Line3MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line4: ""
+  Line4MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line5: ""
+  Line5MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line6: ""
+  Line6MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierAddressLine1: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/Address/Line1"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierAddressLine2: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/Address/Line2"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierAddressLine3: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/Address/Line3"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierAddressLine4: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/Address/Line4"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierAddressLine5: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/Address/Line5"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierAddressLine6: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/Address/Line6"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/Address/Postcode"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierTrade: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/Trade"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierTradeCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/Trade/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierTradeCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/Trade/Code/ListOwner"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierTradeCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/Trade/Code/ListNo"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierTradeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/Trade/Code/Value"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierTradeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/Trade/Code/ShortDescription"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierTradeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/Trade/Code/Description"
+BusinessInterruptionCoverAdditionalCoverCustomerSupplierNotes: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/CustomerSupplier/Notes"
+BusinessInterruptionCoverAdditionalCoverIndemnityPeriod: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/IndemnityPeriod"
+BusinessInterruptionCoverAdditionalCoverSumInsured: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+BusinessInterruptionCoverAdditionalCoverSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/SumInsured/Amount"
+BusinessInterruptionCoverAdditionalCoverSumInsuredPercent: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/SumInsured/Percent"
+BusinessInterruptionCoverAdditionalCoverExcess: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+BusinessInterruptionCoverAdditionalCoverExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/Excess/Amount"
+BusinessInterruptionCoverAdditionalCoverExcessPercent: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/Excess/Percent"
+BusinessInterruptionCoverAdditionalCoverEndorsement: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessInterruptionCoverAdditionalCoverEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/Endorsement/ReasonApplied"
+BusinessInterruptionCoverAdditionalCoverEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/Endorsement/ShortWording"
+BusinessInterruptionCoverAdditionalCoverEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/Endorsement/Wording"
+BusinessInterruptionCoverAdditionalCoverPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+BusinessInterruptionCoverAdditionalCoverPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/PremiumQuoteBreakdown/GrossAmount"
+BusinessInterruptionCoverAdditionalCoverPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/PremiumQuoteBreakdown/BrokerageAmount"
+BusinessInterruptionCoverAdditionalCoverPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/PremiumQuoteBreakdown/BrokeragePercent"
+BusinessInterruptionCoverAdditionalCoverPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/PremiumQuoteBreakdown/IPTAmount"
+BusinessInterruptionCoverAdditionalCoverPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/PremiumQuoteBreakdown/IPTPercent"
+BusinessInterruptionCoverAdditionalCoverPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessInterruptionCoverAdditionalCoverPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/PremiumQuoteBreakdown/MinAppliedInd/Value"
+BusinessInterruptionCoverAdditionalCoverNotes: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/Notes"
+BusinessInterruptionCoverAdditionalCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessInterruptionCoverAdditionalCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/AdditionalCover/ExcludedInd/Value"
+BusinessInterruptionCoverPerils: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Perils"
+BusinessInterruptionCoverPerilsCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Perils/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessInterruptionCoverPerilsCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Perils/Code/Value"
+BusinessInterruptionCoverPerilsCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Perils/Code/ShortDescription"
+BusinessInterruptionCoverPerilsCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Perils/Code/Description"
+BusinessInterruptionCoverEndorsement: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessInterruptionCoverEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Endorsement/ReasonApplied"
+BusinessInterruptionCoverEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Endorsement/ShortWording"
+BusinessInterruptionCoverEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Endorsement/Wording"
+BusinessInterruptionCoverPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  CalculationAmount: ""
+  CalculationAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BasedOnAmount: ""
+  BasedOnAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  RunningTotal: ""
+  RunningTotalMD: !map:HashWithIndifferentAccess
+    type: "number"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+BusinessInterruptionCoverPremiumQuoteBreakdownTypeCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BusinessInterruptionCoverPremiumQuoteBreakdownTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/TypeCode/Value"
+BusinessInterruptionCoverPremiumQuoteBreakdownTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/TypeCode/ShortDescription"
+BusinessInterruptionCoverPremiumQuoteBreakdownReasonCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/ReasonCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessInterruptionCoverPremiumQuoteBreakdownReasonCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/ReasonCode/Value"
+BusinessInterruptionCoverPremiumQuoteBreakdownReasonCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/ReasonCode/ShortDescription"
+BusinessInterruptionCoverPremiumQuoteBreakdownReasonCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/ReasonCode/Description"
+BusinessInterruptionCoverPremiumQuoteBreakdownPercent: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/Percent"
+BusinessInterruptionCoverPremiumQuoteBreakdownCalculationAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/CalculationAmount"
+BusinessInterruptionCoverPremiumQuoteBreakdownBasedOnAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/BasedOnAmount"
+BusinessInterruptionCoverPremiumQuoteBreakdownRunningTotal: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/RunningTotal"
+BusinessInterruptionCoverPremiumQuoteBreakdownDisplayFlagInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/DisplayFlagInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessInterruptionCoverPremiumQuoteBreakdownDisplayFlagIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/DisplayFlagInd/Value"
+BusinessInterruptionCoverPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/GrossAmount"
+BusinessInterruptionCoverPremiumQuoteBreakdownAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/Amount"
+BusinessInterruptionCoverPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/BrokerageAmount"
+BusinessInterruptionCoverPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/BrokeragePercent"
+BusinessInterruptionCoverPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/IPTAmount"
+BusinessInterruptionCoverPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/IPTPercent"
+BusinessInterruptionCoverPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessInterruptionCoverPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/PremiumQuoteBreakdown/MinAppliedInd/Value"
+BusinessInterruptionCoverNotes: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Notes"
+BusinessInterruptionCoverInformation: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessInterruptionCoverInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Information/Description"
+BusinessInterruptionCoverAttachment: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Attachment"
+  URI: ""
+  URIMD: !map:HashWithIndifferentAccess
+    type: ""
+BusinessInterruptionCoverAttachmentURI: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/Attachment/URI"
+BusinessInterruptionCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessInterruptionCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessInterruptionCover/ExcludedInd/Value"

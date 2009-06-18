@@ -1,0 +1,9 @@
+package :products
+endpackage
+
+#test DSL to build a master schema for a suite of products - known in VPMS as a package
+#the param is set to products - this is used to reference the current disk location of the products suite
+#to be considered part of the package - in this case, all the products in the products dir
+#can be extended in future to manage (for example) retail products, or office products, etc.
+#in which case the disk store location or the local store might be either products/retail or products/office
+

@@ -1,0 +1,687 @@
+ContentsCover: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+ContentsCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+ContentsCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverRequiredInd/Value"
+ContentsCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail"
+  DayOnePercent: ""
+  DayOnePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IndexLinkedPercent: ""
+  IndexLinkedPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+ContentsCoverCoverDetailBasisCode: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/BasisCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/BasisCode/Value"
+ContentsCoverCoverDetailBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/BasisCode/ShortDescription"
+ContentsCoverCoverDetailBasisCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/BasisCode/Description"
+ContentsCoverCoverDetailAdjustmentMethodCode: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/AdjustmentMethodCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailAdjustmentMethodCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/AdjustmentMethodCode/Value"
+ContentsCoverCoverDetailAdjustmentMethodCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/AdjustmentMethodCode/ShortDescription"
+ContentsCoverCoverDetailAdjustmentMethodCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/AdjustmentMethodCode/Description"
+ContentsCoverCoverDetailDayOnePercent: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/DayOnePercent"
+ContentsCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/SumInsured/Amount"
+ContentsCoverCoverDetailExcess: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Excess/Amount"
+ContentsCoverCoverDetailPerils: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Perils"
+ContentsCoverCoverDetailPerilsCode: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Perils/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+ContentsCoverCoverDetailPerilsCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Perils/Code/Value"
+ContentsCoverCoverDetailPerilsCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Perils/Code/ShortDescription"
+ContentsCoverCoverDetailBreakdown: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Breakdown"
+  FloatingPercent: ""
+  FloatingPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+ContentsCoverCoverDetailBreakdownCode: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Breakdown/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailBreakdownCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Breakdown/Code/Value"
+ContentsCoverCoverDetailBreakdownCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Breakdown/Code/ShortDescription"
+ContentsCoverCoverDetailBreakdownCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Breakdown/Code/Description"
+ContentsCoverCoverDetailBreakdownSumInsured: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Breakdown/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailBreakdownSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Breakdown/SumInsured/Amount"
+ContentsCoverCoverDetailBreakdownFloatingPercent: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Breakdown/FloatingPercent"
+ContentsCoverCoverDetailBreakdownFloatingInd: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Breakdown/FloatingInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailBreakdownFloatingIndValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Breakdown/FloatingInd/Value"
+ContentsCoverCoverDetailBreakdownFloatingIndDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Breakdown/FloatingInd/Description"
+ContentsCoverCoverDetailBreakdownExcess: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Breakdown/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailBreakdownExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Breakdown/Excess/Amount"
+ContentsCoverCoverDetailTargetStock: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/TargetStock"
+ContentsCoverCoverDetailTargetStockCode: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/TargetStock/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailTargetStockCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/TargetStock/Code/Value"
+ContentsCoverCoverDetailTargetStockCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/TargetStock/Code/ShortDescription"
+ContentsCoverCoverDetailTargetStockCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/TargetStock/Code/Description"
+ContentsCoverCoverDetailTargetStockSumInsured: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/TargetStock/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailTargetStockSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/TargetStock/SumInsured/Amount"
+ContentsCoverCoverDetailOtherStock: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/OtherStock"
+ContentsCoverCoverDetailOtherStockSumInsured: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/OtherStock/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailOtherStockSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/OtherStock/SumInsured/Amount"
+ContentsCoverCoverDetailOtherContents: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/OtherContents"
+ContentsCoverCoverDetailOtherContentsCode: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/OtherContents/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailOtherContentsCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/OtherContents/Code/Value"
+ContentsCoverCoverDetailOtherContentsCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/OtherContents/Code/ShortDescription"
+ContentsCoverCoverDetailOtherContentsCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/OtherContents/Code/Description"
+ContentsCoverCoverDetailOtherContentsSumInsured: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/OtherContents/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailOtherContentsSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/OtherContents/SumInsured/Amount"
+ContentsCoverCoverDetailOtherContentsExcess: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/OtherContents/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailOtherContentsExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/OtherContents/Excess/Amount"
+ContentsCoverCoverDetailIndexLinkedPercent: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/IndexLinkedPercent"
+ContentsCoverCoverDetailUnspecifiedItems: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItems"
+ContentsCoverCoverDetailUnspecifiedItemsCode: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItems/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+ContentsCoverCoverDetailUnspecifiedItemsCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItems/Code/Value"
+ContentsCoverCoverDetailUnspecifiedItemsCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItems/Code/ShortDescription"
+ContentsCoverCoverDetailUnspecifiedItemsSumInsured: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItems/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailUnspecifiedItemsSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItems/SumInsured/Amount"
+ContentsCoverCoverDetailSpecifiedItem: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/SpecifiedItem"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailSpecifiedItemId: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/SpecifiedItem/Id"
+ContentsCoverCoverDetailSpecifiedItemTypeCode: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/SpecifiedItem/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailSpecifiedItemTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/SpecifiedItem/TypeCode/Value"
+ContentsCoverCoverDetailSpecifiedItemTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/SpecifiedItem/TypeCode/ShortDescription"
+ContentsCoverCoverDetailSpecifiedItemTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/SpecifiedItem/TypeCode/Description"
+ContentsCoverCoverDetailSpecifiedItemSumInsured: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/SpecifiedItem/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailSpecifiedItemSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/SpecifiedItem/SumInsured/Amount"
+ContentsCoverCoverDetailSpecifiedItemExcess: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/SpecifiedItem/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailSpecifiedItemExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/SpecifiedItem/Excess/Amount"
+ContentsCoverCoverDetailLimit: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Limit"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailLimitAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Limit/Amount"
+ContentsCoverCoverDetailLimitApplicationCode: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Limit/ApplicationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailLimitApplicationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Limit/ApplicationCode/Value"
+ContentsCoverCoverDetailLimitApplicationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Limit/ApplicationCode/ShortDescription"
+ContentsCoverCoverDetailLimitApplicationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Limit/ApplicationCode/Description"
+ContentsCoverCoverDetailAdditionalCover: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/AdditionalCover"
+ContentsCoverCoverDetailAdditionalCoverCode: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/AdditionalCover/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailAdditionalCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/AdditionalCover/Code/Value"
+ContentsCoverCoverDetailAdditionalCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/AdditionalCover/Code/ShortDescription"
+ContentsCoverCoverDetailAdditionalCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/AdditionalCover/Code/Description"
+ContentsCoverCoverDetailAdditionalCoverSumInsured: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/AdditionalCover/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+ContentsCoverCoverDetailAdditionalCoverSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/AdditionalCover/SumInsured/Amount"
+ContentsCoverCoverDetailAdditionalCoverSumInsuredPercent: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/AdditionalCover/SumInsured/Percent"
+ContentsCoverCoverDetailAdditionalCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/AdditionalCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+ContentsCoverCoverDetailAdditionalCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/AdditionalCover/ExcludedInd/Value"
+ContentsCoverCoverDetailEndorsement: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Endorsement/ReasonApplied"
+ContentsCoverCoverDetailEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Endorsement/ShortWording"
+ContentsCoverCoverDetailEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Endorsement/Wording"
+ContentsCoverCoverDetailPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  CalculationAmount: ""
+  CalculationAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BasedOnAmount: ""
+  BasedOnAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  RunningTotal: ""
+  RunningTotalMD: !map:HashWithIndifferentAccess
+    type: "number"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+ContentsCoverCoverDetailPremiumQuoteBreakdownTypeCode: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+ContentsCoverCoverDetailPremiumQuoteBreakdownTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/TypeCode/Value"
+ContentsCoverCoverDetailPremiumQuoteBreakdownTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/TypeCode/ShortDescription"
+ContentsCoverCoverDetailPremiumQuoteBreakdownReasonCode: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/ReasonCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailPremiumQuoteBreakdownReasonCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/ReasonCode/Value"
+ContentsCoverCoverDetailPremiumQuoteBreakdownReasonCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/ReasonCode/ShortDescription"
+ContentsCoverCoverDetailPremiumQuoteBreakdownReasonCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/ReasonCode/Description"
+ContentsCoverCoverDetailPremiumQuoteBreakdownPercent: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/Percent"
+ContentsCoverCoverDetailPremiumQuoteBreakdownCalculationAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/CalculationAmount"
+ContentsCoverCoverDetailPremiumQuoteBreakdownBasedOnAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/BasedOnAmount"
+ContentsCoverCoverDetailPremiumQuoteBreakdownRunningTotal: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/RunningTotal"
+ContentsCoverCoverDetailPremiumQuoteBreakdownDisplayFlagInd: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/DisplayFlagInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+ContentsCoverCoverDetailPremiumQuoteBreakdownDisplayFlagIndValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/DisplayFlagInd/Value"
+ContentsCoverCoverDetailPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/GrossAmount"
+ContentsCoverCoverDetailPremiumQuoteBreakdownAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/Amount"
+ContentsCoverCoverDetailPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/BrokerageAmount"
+ContentsCoverCoverDetailPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/BrokeragePercent"
+ContentsCoverCoverDetailPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/IPTAmount"
+ContentsCoverCoverDetailPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/IPTPercent"
+ContentsCoverCoverDetailPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+ContentsCoverCoverDetailPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd/Value"
+ContentsCoverCoverDetailNotes: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Notes"
+ContentsCoverCoverDetailInformation: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/Information/Description"
+ContentsCoverCoverDetailNCDDetail: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/NCDDetail"
+  NCDYears: ""
+  NCDYearsMD: !map:HashWithIndifferentAccess
+    type: "number"
+ContentsCoverCoverDetailNCDDetailNCDYears: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/NCDDetail/NCDYears"
+ContentsCoverCoverDetailPaymentPlan: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PaymentPlan"
+ContentsCoverCoverDetailPaymentPlanMethodOfPaymentCode: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PaymentPlan/MethodOfPaymentCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailPaymentPlanMethodOfPaymentCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PaymentPlan/MethodOfPaymentCode/Value"
+ContentsCoverCoverDetailPaymentPlanMethodOfPaymentCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PaymentPlan/MethodOfPaymentCode/ShortDescription"
+ContentsCoverCoverDetailPaymentPlanMethodOfPaymentCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PaymentPlan/MethodOfPaymentCode/Description"
+ContentsCoverCoverDetailPriorInsurer: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PriorInsurer"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailPriorInsurerCode: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PriorInsurer/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailPriorInsurerCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PriorInsurer/Code/ListOwner"
+ContentsCoverCoverDetailPriorInsurerCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PriorInsurer/Code/ListNo"
+ContentsCoverCoverDetailPriorInsurerCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PriorInsurer/Code/Value"
+ContentsCoverCoverDetailPriorInsurerCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PriorInsurer/Code/ShortDescription"
+ContentsCoverCoverDetailPriorInsurerCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PriorInsurer/Code/Description"
+ContentsCoverCoverDetailPriorInsurerCompanyName: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/PriorInsurer/CompanyName"
+ContentsCoverCoverDetailUnspecifiedItemsCover: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItemsCover"
+ContentsCoverCoverDetailUnspecifiedItemsCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItemsCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+ContentsCoverCoverDetailUnspecifiedItemsCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItemsCover/CoverRequiredInd/Value"
+ContentsCoverCoverDetailUnspecifiedItemsCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItemsCover/CoverDetail"
+ContentsCoverCoverDetailUnspecifiedItemsCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItemsCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailUnspecifiedItemsCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItemsCover/CoverDetail/SumInsured/Amount"
+ContentsCoverCoverDetailUnspecifiedItemsCoverCode: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItemsCover/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailUnspecifiedItemsCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItemsCover/Code/Value"
+ContentsCoverCoverDetailUnspecifiedItemsCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItemsCover/Code/ShortDescription"
+ContentsCoverCoverDetailUnspecifiedItemsCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItemsCover/Code/Description"
+ContentsCoverCoverDetailUnspecifiedItemsCoverSumInsured: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItemsCover/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+ContentsCoverCoverDetailUnspecifiedItemsCoverSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItemsCover/SumInsured/Amount"
+ContentsCoverCoverDetailUnspecifiedItemsCoverSumInsuredPercent: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/UnspecifiedItemsCover/SumInsured/Percent"
+ContentsCoverCoverDetailOwnersPersonalEffects: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/OwnersPersonalEffects"
+ContentsCoverCoverDetailOwnersPersonalEffectsSumInsured: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/OwnersPersonalEffects/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailOwnersPersonalEffectsSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/OwnersPersonalEffects/SumInsured/Amount"
+ContentsCoverCoverDetailGuestsPersonalEffects: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/GuestsPersonalEffects"
+ContentsCoverCoverDetailGuestsPersonalEffectsSumInsured: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/GuestsPersonalEffects/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailGuestsPersonalEffectsSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/GuestsPersonalEffects/SumInsured/Amount"
+ContentsCoverCoverDetailHomeContents: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/HomeContents"
+ContentsCoverCoverDetailHomeContentsSumInsured: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/HomeContents/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailHomeContentsSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/HomeContents/SumInsured/Amount"
+ContentsCoverCoverDetailHomeContentsLimit: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/HomeContents/Limit"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ContentsCoverCoverDetailHomeContentsLimitAmount: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/HomeContents/Limit/Amount"
+ContentsCoverCoverDetailHomeContentsLimitApplicationCode: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/HomeContents/Limit/ApplicationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverCoverDetailHomeContentsLimitApplicationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/HomeContents/Limit/ApplicationCode/Value"
+ContentsCoverCoverDetailHomeContentsLimitApplicationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/HomeContents/Limit/ApplicationCode/ShortDescription"
+ContentsCoverCoverDetailHomeContentsLimitApplicationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/HomeContents/Limit/ApplicationCode/Description"
+ContentsCoverCoverDetailHomeContentsExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/HomeContents/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+ContentsCoverCoverDetailHomeContentsExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/CoverDetail/HomeContents/ExcludedInd/Value"
+ContentsCoverNotes: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/Notes"
+ContentsCoverInformation: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContentsCoverInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/Information/Description"
+ContentsCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+ContentsCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "ContentsCover/ExcludedInd/Value

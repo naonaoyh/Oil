@@ -1,0 +1,133 @@
+BookDebtsCover: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover"
+BookDebtsCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BookDebtsCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverRequiredInd/Value"
+BookDebtsCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+BookDebtsCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+BookDebtsCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/SumInsured/Amount"
+BookDebtsCoverCoverDetailBusinessRecords: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/BusinessRecords"
+BookDebtsCoverCoverDetailBusinessRecordsBackupFrequency: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/BusinessRecords/BackupFrequency"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+BookDebtsCoverCoverDetailBusinessRecordsBackupFrequencyUnit: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/BusinessRecords/BackupFrequency/Unit"
+BookDebtsCoverCoverDetailBusinessRecordsBackupFrequencyType: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/BusinessRecords/BackupFrequency/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BookDebtsCoverCoverDetailBusinessRecordsBackupFrequencyTypeValue: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/BusinessRecords/BackupFrequency/Type/Value"
+BookDebtsCoverCoverDetailBusinessRecordsBackupFrequencyTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/BusinessRecords/BackupFrequency/Type/ShortDescription"
+BookDebtsCoverCoverDetailExcess: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+BookDebtsCoverCoverDetailExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/Excess/Amount"
+BookDebtsCoverCoverDetailExcessPercent: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/Excess/Percent"
+BookDebtsCoverCoverDetailEndorsement: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+BookDebtsCoverCoverDetailEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/Endorsement/ReasonApplied"
+BookDebtsCoverCoverDetailEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/Endorsement/ShortWording"
+BookDebtsCoverCoverDetailEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/Endorsement/Wording"
+BookDebtsCoverCoverDetailPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+BookDebtsCoverCoverDetailPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/PremiumQuoteBreakdown/GrossAmount"
+BookDebtsCoverCoverDetailPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/PremiumQuoteBreakdown/BrokerageAmount"
+BookDebtsCoverCoverDetailPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/PremiumQuoteBreakdown/BrokeragePercent"
+BookDebtsCoverCoverDetailPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/PremiumQuoteBreakdown/IPTAmount"
+BookDebtsCoverCoverDetailPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/PremiumQuoteBreakdown/IPTPercent"
+BookDebtsCoverCoverDetailPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BookDebtsCoverCoverDetailPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd/Value"
+BookDebtsCoverCoverDetailNotes: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/Notes"
+BookDebtsCoverCoverDetailInformation: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BookDebtsCoverCoverDetailInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/CoverDetail/Information/Description"
+BookDebtsCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BookDebtsCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BookDebtsCover/ExcludedInd/Value"

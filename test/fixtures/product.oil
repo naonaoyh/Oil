@@ -1,0 +1,16 @@
+product :SimplyShopQuoteNBRq
+ entities
+    has_one :Policy
+    has_one :Insured
+ endentities
+ coverages
+    has_one :BookDebtsCover
+    has_one :BuildingsCover
+    has_one :BusinessInterruptionCover
+    has_one :ContentsCover
+    has_one :EmployersLiabilityCover
+    has_one :LossOfLicenceCover
+    has_one :MoneyCover
+    has_one :PublicLiabilityCover
+  endcoverages 
+endproduct

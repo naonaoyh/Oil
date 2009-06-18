@@ -1,0 +1,937 @@
+Insured: !map:HashWithIndifferentAccess
+  xpath: "Insured"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  TelephoneNo: ""
+  TelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  HomeTelephoneNo: ""
+  HomeTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  WorkTelephoneNo: ""
+  WorkTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  MobileTelephoneNo: ""
+  MobileTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  FaxTelephoneNo: ""
+  FaxTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EmailAddress: ""
+  EmailAddressMD: !map:HashWithIndifferentAccess
+    type: "text"
+  WebSite: ""
+  WebSiteMD: !map:HashWithIndifferentAccess
+    type: "text"
+  BirthDate: ""
+  BirthDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  YearsExperience: ""
+  YearsExperienceMD: !map:HashWithIndifferentAccess
+    type: "number"
+  YearBusinessEstablished: ""
+  YearBusinessEstablishedMD: !map:HashWithIndifferentAccess
+    type: "number"
+  CompanyEstablishedDate: ""
+  CompanyEstablishedDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  CompanyRegistrationNo: ""
+  CompanyRegistrationNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  YearsResidentInCountry: ""
+  YearsResidentInCountryMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Turnover: ""
+  TurnoverMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Access: ""
+  AccessMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+InsuredIndividualName: !map:HashWithIndifferentAccess
+  xpath: "Insured/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  SecondForename: ""
+  SecondForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+InsuredIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/IndividualName/TitleCode/Value"
+InsuredIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/IndividualName/TitleCode/ShortDescription"
+InsuredIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "Insured/IndividualName/FirstForename"
+InsuredIndividualNameSecondForename: !map:HashWithIndifferentAccess
+  xpath: "Insured/IndividualName/SecondForename"
+InsuredIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "Insured/IndividualName/Surname"
+InsuredCompanyName: !map:HashWithIndifferentAccess
+  xpath: "Insured/CompanyName"
+InsuredLegalEntity: !map:HashWithIndifferentAccess
+  xpath: "Insured/LegalEntity"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredLegalEntityCompanyName: !map:HashWithIndifferentAccess
+  xpath: "Insured/LegalEntity/CompanyName"
+InsuredAddress: !map:HashWithIndifferentAccess
+  xpath: "Insured/Address"
+  Line1: ""
+  Line1MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line2: ""
+  Line2MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line3: ""
+  Line3MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line4: ""
+  Line4MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line5: ""
+  Line5MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line6: ""
+  Line6MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+InsuredAddressLine1: !map:HashWithIndifferentAccess
+  xpath: "Insured/Address/Line1"
+InsuredAddressLine2: !map:HashWithIndifferentAccess
+  xpath: "Insured/Address/Line2"
+InsuredAddressLine3: !map:HashWithIndifferentAccess
+  xpath: "Insured/Address/Line3"
+InsuredAddressLine4: !map:HashWithIndifferentAccess
+  xpath: "Insured/Address/Line4"
+InsuredAddressLine5: !map:HashWithIndifferentAccess
+  xpath: "Insured/Address/Line5"
+InsuredAddressLine6: !map:HashWithIndifferentAccess
+  xpath: "Insured/Address/Line6"
+InsuredAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Address/Postcode"
+InsuredTrade: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade"
+  WorkAwayPercent: ""
+  WorkAwayPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  SecondHandPercent: ""
+  SecondHandPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  NoOfWorkers: ""
+  NoOfWorkersMD: !map:HashWithIndifferentAccess
+    type: "number"
+  EstimatedTurnoverAmount: ""
+  EstimatedTurnoverAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  NumberOf: ""
+  NumberOfMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+InsuredTradeCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredTradeCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Code/ListOwner"
+InsuredTradeCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Code/ListNo"
+InsuredTradeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Code/Value"
+InsuredTradeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Code/ShortDescription"
+InsuredTradeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Code/Description"
+InsuredTradeMainInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/MainInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+InsuredTradeMainIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/MainInd/Value"
+InsuredTradeWorkAwayInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/WorkAwayInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+InsuredTradeWorkAwayIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/WorkAwayInd/Value"
+InsuredTradeWorkAwayPercent: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/WorkAwayPercent"
+InsuredTradeSecondHandPercent: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/SecondHandPercent"
+InsuredTradeTreatment: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Treatment"
+  NoOfWorkers: ""
+  NoOfWorkersMD: !map:HashWithIndifferentAccess
+    type: "number"
+InsuredTradeTreatmentTreatmentCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Treatment/TreatmentCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredTradeTreatmentTreatmentCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Treatment/TreatmentCode/Value"
+InsuredTradeTreatmentTreatmentCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Treatment/TreatmentCode/ShortDescription"
+InsuredTradeTreatmentTreatmentCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Treatment/TreatmentCode/Description"
+InsuredTradeTreatmentCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Treatment/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredTradeTreatmentCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Treatment/Code/Value"
+InsuredTradeTreatmentCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Treatment/Code/ShortDescription"
+InsuredTradeTreatmentCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Treatment/Code/Description"
+InsuredTradeTreatmentNoOfWorkers: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Treatment/NoOfWorkers"
+InsuredTradeNoOfWorkers: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/NoOfWorkers"
+InsuredTradeEstimatedTurnoverAmount: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/EstimatedTurnoverAmount"
+InsuredTradeNumberOf: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/NumberOf"
+InsuredTradeGeneralObject: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/GeneralObject"
+InsuredTradeGeneralObjectGeneralObjectCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/GeneralObject/GeneralObjectCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredTradeGeneralObjectGeneralObjectCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/GeneralObject/GeneralObjectCode/ListOwner"
+InsuredTradeGeneralObjectGeneralObjectCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/GeneralObject/GeneralObjectCode/ListNo"
+InsuredTradeGeneralObjectGeneralObjectCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/GeneralObject/GeneralObjectCode/Value"
+InsuredTradeGeneralObjectGeneralObjectCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/GeneralObject/GeneralObjectCode/ShortDescription"
+InsuredTradeGeneralObjectGeneralObjectCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/GeneralObject/GeneralObjectCode/Description"
+InsuredTradeNotes: !map:HashWithIndifferentAccess
+  xpath: "Insured/Trade/Notes"
+InsuredTradingName: !map:HashWithIndifferentAccess
+  xpath: "Insured/TradingName"
+  Name: ""
+  NameMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredTradingNameName: !map:HashWithIndifferentAccess
+  xpath: "Insured/TradingName/Name"
+InsuredTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Insured/TelephoneNo"
+InsuredHomeTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Insured/HomeTelephoneNo"
+InsuredWorkTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Insured/WorkTelephoneNo"
+InsuredMobileTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Insured/MobileTelephoneNo"
+InsuredFaxTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Insured/FaxTelephoneNo"
+InsuredEmailAddress: !map:HashWithIndifferentAccess
+  xpath: "Insured/EmailAddress"
+InsuredWebSite: !map:HashWithIndifferentAccess
+  xpath: "Insured/WebSite"
+InsuredSexCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/SexCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredSexCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/SexCode/Value"
+InsuredSexCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/SexCode/ShortDescription"
+InsuredSexCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/SexCode/Description"
+InsuredBirthDate: !map:HashWithIndifferentAccess
+  xpath: "Insured/BirthDate"
+InsuredMaritalStatusCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/MaritalStatusCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredMaritalStatusCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/MaritalStatusCode/Value"
+InsuredMaritalStatusCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/MaritalStatusCode/ShortDescription"
+InsuredMaritalStatusCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/MaritalStatusCode/Description"
+InsuredYearsExperience: !map:HashWithIndifferentAccess
+  xpath: "Insured/YearsExperience"
+InsuredYearBusinessEstablished: !map:HashWithIndifferentAccess
+  xpath: "Insured/YearBusinessEstablished"
+InsuredCompanyEstablishedDate: !map:HashWithIndifferentAccess
+  xpath: "Insured/CompanyEstablishedDate"
+InsuredCompanyRegCountryCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/CompanyRegCountryCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredCompanyRegCountryCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Insured/CompanyRegCountryCode/ListOwner"
+InsuredCompanyRegCountryCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Insured/CompanyRegCountryCode/ListNo"
+InsuredCompanyRegCountryCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/CompanyRegCountryCode/Value"
+InsuredCompanyRegCountryCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/CompanyRegCountryCode/ShortDescription"
+InsuredCompanyRegCountryCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/CompanyRegCountryCode/Description"
+InsuredCompanyRegistrationNo: !map:HashWithIndifferentAccess
+  xpath: "Insured/CompanyRegistrationNo"
+InsuredCompanyStatusCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/CompanyStatusCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredCompanyStatusCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/CompanyStatusCode/Value"
+InsuredCompanyStatusCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/CompanyStatusCode/ShortDescription"
+InsuredCompanyStatusCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/CompanyStatusCode/Description"
+InsuredFirstTimeBuyerInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/FirstTimeBuyerInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+InsuredFirstTimeBuyerIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/FirstTimeBuyerInd/Value"
+InsuredFirstTimeInsuredInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/FirstTimeInsuredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+InsuredFirstTimeInsuredIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/FirstTimeInsuredInd/Value"
+InsuredYearsResidentInCountry: !map:HashWithIndifferentAccess
+  xpath: "Insured/YearsResidentInCountry"
+InsuredSmokerInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/SmokerInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+InsuredSmokerIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/SmokerInd/Value"
+InsuredTurnover: !map:HashWithIndifferentAccess
+  xpath: "Insured/Turnover"
+InsuredTurnoverDetail: !map:HashWithIndifferentAccess
+  xpath: "Insured/TurnoverDetail"
+  TurnoverAmount: ""
+  TurnoverAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+InsuredTurnoverDetailTurnoverActivityCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/TurnoverDetail/TurnoverActivityCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredTurnoverDetailTurnoverActivityCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/TurnoverDetail/TurnoverActivityCode/Value"
+InsuredTurnoverDetailTurnoverActivityCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/TurnoverDetail/TurnoverActivityCode/ShortDescription"
+InsuredTurnoverDetailTurnoverActivityCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/TurnoverDetail/TurnoverActivityCode/Description"
+InsuredTurnoverDetailTurnoverAmount: !map:HashWithIndifferentAccess
+  xpath: "Insured/TurnoverDetail/TurnoverAmount"
+InsuredOtherBusinessInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/OtherBusinessInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredOtherBusinessIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/OtherBusinessInd/Value"
+InsuredOtherBusinessIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/OtherBusinessInd/Description"
+InsuredAccess: !map:HashWithIndifferentAccess
+  xpath: "Insured/Access"
+InsuredSubsidiaryIncludedInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/SubsidiaryIncludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredSubsidiaryIncludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/SubsidiaryIncludedInd/Value"
+InsuredSubsidiaryIncludedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/SubsidiaryIncludedInd/Description"
+InsuredSubsidiary: !map:HashWithIndifferentAccess
+  xpath: "Insured/Subsidiary"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredSubsidiarySubsidiaryIncludedInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/Subsidiary/SubsidiaryIncludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+InsuredSubsidiarySubsidiaryIncludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Subsidiary/SubsidiaryIncludedInd/Value"
+InsuredSubsidiaryCompanyName: !map:HashWithIndifferentAccess
+  xpath: "Insured/Subsidiary/CompanyName"
+InsuredOccupation: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation"
+InsuredOccupationCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredOccupationCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation/Code/ListOwner"
+InsuredOccupationCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation/Code/ListNo"
+InsuredOccupationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation/Code/Value"
+InsuredOccupationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation/Code/ShortDescription"
+InsuredOccupationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation/Code/Description"
+InsuredOccupationEmployersBusinessCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation/EmployersBusinessCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredOccupationEmployersBusinessCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation/EmployersBusinessCode/ListOwner"
+InsuredOccupationEmployersBusinessCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation/EmployersBusinessCode/ListNo"
+InsuredOccupationEmployersBusinessCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation/EmployersBusinessCode/Value"
+InsuredOccupationEmployersBusinessCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation/EmployersBusinessCode/ShortDescription"
+InsuredOccupationEmployersBusinessCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation/EmployersBusinessCode/Description"
+InsuredOccupationFullTimeInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation/FullTimeInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+InsuredOccupationFullTimeIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation/FullTimeInd/Value"
+InsuredOccupationMainInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation/MainInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+InsuredOccupationMainIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Occupation/MainInd/Value"
+InsuredResidentInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/ResidentInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredResidentIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/ResidentInd/Value"
+InsuredResidentIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/ResidentInd/Description"
+InsuredNeighbourhoodWatchInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/NeighbourhoodWatchInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredNeighbourhoodWatchIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/NeighbourhoodWatchInd/Value"
+InsuredNeighbourhoodWatchIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/NeighbourhoodWatchInd/Description"
+InsuredOperatorLicence: !map:HashWithIndifferentAccess
+  xpath: "Insured/OperatorLicence"
+InsuredOperatorLicenceExemptInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/OperatorLicence/ExemptInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+InsuredOperatorLicenceExemptIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/OperatorLicence/ExemptInd/Value"
+InsuredOperatorLicenceLicenceDetail: !map:HashWithIndifferentAccess
+  xpath: "Insured/OperatorLicence/LicenceDetail"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredOperatorLicenceLicenceDetailCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/OperatorLicence/LicenceDetail/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredOperatorLicenceLicenceDetailCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/OperatorLicence/LicenceDetail/Code/Value"
+InsuredOperatorLicenceLicenceDetailCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/OperatorLicence/LicenceDetail/Code/ShortDescription"
+InsuredOperatorLicenceLicenceDetailCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/OperatorLicence/LicenceDetail/Code/Description"
+InsuredOperatorLicenceLicenceDetailReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "Insured/OperatorLicence/LicenceDetail/ReferenceNumber"
+InsuredOperatorLicenceLicenceDetailLicenceAddress: !map:HashWithIndifferentAccess
+  xpath: "Insured/OperatorLicence/LicenceDetail/LicenceAddress"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+InsuredOperatorLicenceLicenceDetailLicenceAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "Insured/OperatorLicence/LicenceDetail/LicenceAddress/Postcode"
+InsuredEmployee: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee"
+  NoOfEmployees: ""
+  NoOfEmployeesMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Wages: ""
+  WagesMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+InsuredEmployeeEmploymentTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/EmploymentTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+InsuredEmployeeEmploymentTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/EmploymentTypeCode/Value"
+InsuredEmployeeEmploymentTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/EmploymentTypeCode/ShortDescription"
+InsuredEmployeeNoOfEmployees: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/NoOfEmployees"
+InsuredEmployeePAGroupCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/PAGroupCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredEmployeePAGroupCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/PAGroupCode/Value"
+InsuredEmployeePAGroupCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/PAGroupCode/ShortDescription"
+InsuredEmployeePAGroupCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/PAGroupCode/Description"
+InsuredEmployeeWages: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/Wages"
+InsuredEmployeeGeneralActivity: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity"
+  NoOfWorkers: ""
+  NoOfWorkersMD: !map:HashWithIndifferentAccess
+    type: "number"
+  TurnoverAmount: ""
+  TurnoverAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  DepthLimit: ""
+  DepthLimitMD: !map:HashWithIndifferentAccess
+    type: "number"
+  HeightLimit: ""
+  HeightLimitMD: !map:HashWithIndifferentAccess
+    type: "number"
+  TurnoverPercent: ""
+  TurnoverPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+InsuredEmployeeGeneralActivityTreatmentCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/TreatmentCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredEmployeeGeneralActivityTreatmentCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/TreatmentCode/Value"
+InsuredEmployeeGeneralActivityTreatmentCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/TreatmentCode/ShortDescription"
+InsuredEmployeeGeneralActivityTreatmentCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/TreatmentCode/Description"
+InsuredEmployeeGeneralActivityCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredEmployeeGeneralActivityCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/Code/Value"
+InsuredEmployeeGeneralActivityCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/Code/ShortDescription"
+InsuredEmployeeGeneralActivityCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/Code/Description"
+InsuredEmployeeGeneralActivityIntensivePulsedLightInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/IntensivePulsedLightInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredEmployeeGeneralActivityIntensivePulsedLightIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/IntensivePulsedLightInd/Value"
+InsuredEmployeeGeneralActivityIntensivePulsedLightIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/IntensivePulsedLightInd/Description"
+InsuredEmployeeGeneralActivityWorkAwayInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/WorkAwayInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+InsuredEmployeeGeneralActivityWorkAwayIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/WorkAwayInd/Value"
+InsuredEmployeeGeneralActivityTerritoryCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/TerritoryCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredEmployeeGeneralActivityTerritoryCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/TerritoryCode/Value"
+InsuredEmployeeGeneralActivityTerritoryCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/TerritoryCode/ShortDescription"
+InsuredEmployeeGeneralActivityTerritoryCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/TerritoryCode/Description"
+InsuredEmployeeGeneralActivityNoOfWorkers: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/NoOfWorkers"
+InsuredEmployeeGeneralActivityTurnoverAmount: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/TurnoverAmount"
+InsuredEmployeeGeneralActivityDepthLimit: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/DepthLimit"
+InsuredEmployeeGeneralActivityHeightLimit: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/HeightLimit"
+InsuredEmployeeGeneralActivitySupervisedInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/SupervisedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+InsuredEmployeeGeneralActivitySupervisedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/SupervisedInd/Value"
+InsuredEmployeeGeneralActivityTurnoverPercent: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/TurnoverPercent"
+InsuredEmployeeGeneralActivityGeneralObjectCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/GeneralObjectCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredEmployeeGeneralActivityGeneralObjectCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/GeneralObjectCode/Value"
+InsuredEmployeeGeneralActivityGeneralObjectCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/GeneralObjectCode/ShortDescription"
+InsuredEmployeeGeneralActivityGeneralObjectCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/GeneralObjectCode/Description"
+InsuredEmployeeGeneralActivityDestinationCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/DestinationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredEmployeeGeneralActivityDestinationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/DestinationCode/Value"
+InsuredEmployeeGeneralActivityDestinationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/DestinationCode/ShortDescription"
+InsuredEmployeeGeneralActivityDestinationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/DestinationCode/Description"
+InsuredEmployeeGeneralActivityDeclaration: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/Declaration"
+InsuredEmployeeGeneralActivityDeclarationPrescriptionOnlyInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/Declaration/PrescriptionOnlyInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredEmployeeGeneralActivityDeclarationPrescriptionOnlyIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/Declaration/PrescriptionOnlyInd/Value"
+InsuredEmployeeGeneralActivityDeclarationPrescriptionOnlyIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/Declaration/PrescriptionOnlyInd/Description"
+InsuredEmployeeGeneralActivityDeclarationProprietaryBrandsUsedInd: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/Declaration/ProprietaryBrandsUsedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredEmployeeGeneralActivityDeclarationProprietaryBrandsUsedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/Declaration/ProprietaryBrandsUsedInd/Value"
+InsuredEmployeeGeneralActivityDeclarationProprietaryBrandsUsedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/GeneralActivity/Declaration/ProprietaryBrandsUsedInd/Description"
+InsuredEmployeeTreatment: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/Treatment"
+  NoOfWorkers: ""
+  NoOfWorkersMD: !map:HashWithIndifferentAccess
+    type: "number"
+InsuredEmployeeTreatmentTreatmentCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/Treatment/TreatmentCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredEmployeeTreatmentTreatmentCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/Treatment/TreatmentCode/Value"
+InsuredEmployeeTreatmentTreatmentCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/Treatment/TreatmentCode/ShortDescription"
+InsuredEmployeeTreatmentTreatmentCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/Treatment/TreatmentCode/Description"
+InsuredEmployeeTreatmentCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/Treatment/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InsuredEmployeeTreatmentCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/Treatment/Code/ListOwner"
+InsuredEmployeeTreatmentCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/Treatment/Code/ListNo"
+InsuredEmployeeTreatmentCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/Treatment/Code/Value"
+InsuredEmployeeTreatmentCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/Treatment/Code/ShortDescription"
+InsuredEmployeeTreatmentCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/Treatment/Code/Description"
+InsuredEmployeeTreatmentNoOfWorkers: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/Treatment/NoOfWorkers"
+InsuredEmployeeNotes: !map:HashWithIndifferentAccess
+  xpath: "Insured/Employee/Notes"
+InsuredIncome: !map:HashWithIndifferentAccess
+  xpath: "Insured/Income"
+  TurnoverAmount: ""
+  TurnoverAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+InsuredIncomeTurnoverTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Insured/Income/TurnoverTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+InsuredIncomeTurnoverTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Insured/Income/TurnoverTypeCode/Value"
+InsuredIncomeTurnoverTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Insured/Income/TurnoverTypeCode/ShortDescription"
+InsuredIncomeTurnoverAmount: !map:HashWithIndifferentAccess
+  xpath: "Insured/Income/TurnoverAmount"
+InsuredNotes: !map:HashWithIndifferentAccess
+  xpath: "Insured/Notes"

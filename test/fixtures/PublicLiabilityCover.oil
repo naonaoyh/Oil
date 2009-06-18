@@ -1,0 +1,3 @@
+coverage :PublicLiabilityCover
+    use :CoverDetail,:SumInsured
+endcoverage

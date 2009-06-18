@@ -1,0 +1,371 @@
+MoneyCover: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover"
+MoneyCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+MoneyCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverRequiredInd/Value"
+MoneyCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+MoneyCoverCoverDetailCoverBreakdown: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/CoverBreakdown"
+MoneyCoverCoverDetailCoverBreakdownCode: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/CoverBreakdown/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+MoneyCoverCoverDetailCoverBreakdownCodeValue: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/CoverBreakdown/Code/Value"
+MoneyCoverCoverDetailCoverBreakdownCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/CoverBreakdown/Code/ShortDescription"
+MoneyCoverCoverDetailCoverBreakdownSumInsured: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/CoverBreakdown/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+MoneyCoverCoverDetailCoverBreakdownSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/CoverBreakdown/SumInsured/Amount"
+MoneyCoverCoverDetailCoverBreakdownExcess: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/CoverBreakdown/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+MoneyCoverCoverDetailCoverBreakdownExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/CoverBreakdown/Excess/Amount"
+MoneyCoverCoverDetailFrequencyOfBanking: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/FrequencyOfBanking"
+MoneyCoverCoverDetailFrequencyOfBankingCode: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/FrequencyOfBanking/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+MoneyCoverCoverDetailFrequencyOfBankingCodeValue: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/FrequencyOfBanking/Code/Value"
+MoneyCoverCoverDetailFrequencyOfBankingCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/FrequencyOfBanking/Code/ShortDescription"
+MoneyCoverCoverDetailFrequencyOfBankingFrequency: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/FrequencyOfBanking/Frequency"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+MoneyCoverCoverDetailFrequencyOfBankingFrequencyUnit: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/FrequencyOfBanking/Frequency/Unit"
+MoneyCoverCoverDetailFrequencyOfBankingFrequencyType: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/FrequencyOfBanking/Frequency/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+MoneyCoverCoverDetailFrequencyOfBankingFrequencyTypeValue: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/FrequencyOfBanking/Frequency/Type/Value"
+MoneyCoverCoverDetailFrequencyOfBankingFrequencyTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/FrequencyOfBanking/Frequency/Type/ShortDescription"
+MoneyCoverCoverDetailSecurityCompany: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/SecurityCompany"
+MoneyCoverCoverDetailSecurityCompanyCode: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/SecurityCompany/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+MoneyCoverCoverDetailSecurityCompanyCodeValue: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/SecurityCompany/Code/Value"
+MoneyCoverCoverDetailSecurityCompanyCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/SecurityCompany/Code/ShortDescription"
+MoneyCoverCoverDetailSecurityCompanyLimit: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/SecurityCompany/Limit"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+MoneyCoverCoverDetailSecurityCompanyLimitAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/SecurityCompany/Limit/Amount"
+MoneyCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+MoneyCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/SumInsured/Amount"
+MoneyCoverCoverDetailSumInsuredPercent: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/SumInsured/Percent"
+MoneyCoverCoverDetailExcess: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+MoneyCoverCoverDetailExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/Excess/Amount"
+MoneyCoverCoverDetailEndorsement: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+MoneyCoverCoverDetailEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/Endorsement/ReasonApplied"
+MoneyCoverCoverDetailEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/Endorsement/ShortWording"
+MoneyCoverCoverDetailEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/Endorsement/Wording"
+MoneyCoverCoverDetailPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+MoneyCoverCoverDetailPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/PremiumQuoteBreakdown/GrossAmount"
+MoneyCoverCoverDetailPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/PremiumQuoteBreakdown/BrokerageAmount"
+MoneyCoverCoverDetailPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/PremiumQuoteBreakdown/BrokeragePercent"
+MoneyCoverCoverDetailPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/PremiumQuoteBreakdown/IPTAmount"
+MoneyCoverCoverDetailPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/PremiumQuoteBreakdown/IPTPercent"
+MoneyCoverCoverDetailPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+MoneyCoverCoverDetailPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd/Value"
+MoneyCoverCoverDetailNotes: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/Notes"
+MoneyCoverCoverDetailInformation: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+MoneyCoverCoverDetailInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/CoverDetail/Information/Description"
+MoneyCoverExcess: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+MoneyCoverExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/Excess/Amount"
+MoneyCoverExcessPercent: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/Excess/Percent"
+MoneyCoverEndorsement: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+MoneyCoverEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/Endorsement/ReasonApplied"
+MoneyCoverEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/Endorsement/ShortWording"
+MoneyCoverEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/Endorsement/Wording"
+MoneyCoverPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+MoneyCoverPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/PremiumQuoteBreakdown/GrossAmount"
+MoneyCoverPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/PremiumQuoteBreakdown/BrokerageAmount"
+MoneyCoverPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/PremiumQuoteBreakdown/BrokeragePercent"
+MoneyCoverPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/PremiumQuoteBreakdown/IPTAmount"
+MoneyCoverPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/PremiumQuoteBreakdown/IPTPercent"
+MoneyCoverPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+MoneyCoverPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/PremiumQuoteBreakdown/MinAppliedInd/Value"
+MoneyCoverAssaultCover: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover"
+MoneyCoverAssaultCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+MoneyCoverAssaultCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverRequiredInd/Value"
+MoneyCoverAssaultCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail"
+MoneyCoverAssaultCoverCoverDetailDeathBenefit: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/DeathBenefit"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+MoneyCoverAssaultCoverCoverDetailDeathBenefitAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/DeathBenefit/Amount"
+MoneyCoverAssaultCoverCoverDetailWeeklyBenefit: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/WeeklyBenefit"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+MoneyCoverAssaultCoverCoverDetailWeeklyBenefitAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/WeeklyBenefit/Amount"
+MoneyCoverAssaultCoverCoverDetailWeeklyBenefitDuration: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/WeeklyBenefit/Duration"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+MoneyCoverAssaultCoverCoverDetailWeeklyBenefitDurationUnit: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/WeeklyBenefit/Duration/Unit"
+MoneyCoverAssaultCoverCoverDetailEndorsement: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+MoneyCoverAssaultCoverCoverDetailEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/Endorsement/ReasonApplied"
+MoneyCoverAssaultCoverCoverDetailEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/Endorsement/ShortWording"
+MoneyCoverAssaultCoverCoverDetailEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/Endorsement/Wording"
+MoneyCoverAssaultCoverCoverDetailPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+MoneyCoverAssaultCoverCoverDetailPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/PremiumQuoteBreakdown/GrossAmount"
+MoneyCoverAssaultCoverCoverDetailPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/PremiumQuoteBreakdown/BrokerageAmount"
+MoneyCoverAssaultCoverCoverDetailPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/PremiumQuoteBreakdown/BrokeragePercent"
+MoneyCoverAssaultCoverCoverDetailPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/PremiumQuoteBreakdown/IPTAmount"
+MoneyCoverAssaultCoverCoverDetailPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/PremiumQuoteBreakdown/IPTPercent"
+MoneyCoverAssaultCoverCoverDetailPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+MoneyCoverAssaultCoverCoverDetailPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd/Value"
+MoneyCoverAssaultCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+MoneyCoverAssaultCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/AssaultCover/ExcludedInd/Value"
+MoneyCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+MoneyCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "MoneyCover/ExcludedInd/Value"

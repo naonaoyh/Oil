@@ -1,0 +1,51 @@
+siteprocesses
+    reference_datamodel "DataModel.oil"
+
+    process :p_home
+        flow :Home,  {:data_model => [:SearchCriteria], :do => :nothing, :navigation => {:process => :p_quotenb, :process => :p_policyquotesearch, :process => :p_policyquotesearch, :process => :p_customersearch, :process => :p_newcustomer, :step => :CancelConfirm}}
+    endprocess
+
+    process :p_policyquotesearch
+        flow :PolicyQuoteSearch,     {:data_model => [:SearchCriteria], :do => :nothing, :navigation => [:SearchResult, :CancelConfirm]}
+        flow :SearchResult,          {:data_model => [:SearchCriteria, :SearchedPoliciesAndQuotes], :do => :FindPoliciesOrQuotes, :navigation => [:QuotePolicySummary, :CancelConfirm]}
+        flow :QuotePolicySummary,    {:data_model => [:PolicyQuoteHeader], :do => :FindPolicyOrQuoteSummary, :navigation => [:process => :p_quotemta, :process => :p_suspendpolicy, :process => :p_cancelpolicy, :step => :CancelConfirm]}
+        flow :CancelConfirm,         {:data_model => [], :do => :nothing, :navigation => [:ProductSelection, :close]}
+    endprocess
+
+    process :p_customersearch
+    process :p_newcustomer
+
+    process :p_cancelpolicy
+    process :p_suspendpolicy
+
+    process :p_reactivatepolicy
+    process :p_convertquote
+    process :p_renewpolicy
+
+
+    products
+        product :PersonalMotor
+
+            process :p_quotenb
+                flow :QNBRiskDataCollect,    {:data_model => [:Driver,:Owner,:Customer,:Vehicle], :do => :nothing, :navigation => [:QNBSummary, :CancelConfirm,:SaveConfirm]}
+                flow :QNBSummary,            {:data_model => [], :do => :GetQuote, :navigation => [:CancelConfirm,:SaveConfirm]}
+                flow :SaveConfirm,           {:data_model => [], :do => :nothing, :navigation => [:Home, :close,:QuoteSearch]}
+                flow :CancelConfirm,         {:data_model => [], :do => :nothing, :navigation => [:Home, :close]}
+          endprocess
+
+            process :p_quotemta
+                flow :MTARiskDataCollect,    {:data_model => [:PolicyQuoteHeader,:Driver,:Owner,:Customer,:Vehicle], :do => :FindPolicyOrQuote, :navigation => [:MTASummary, :CancelConfirm,:SaveConfirm]}
+                flow :MTASummary,            {:data_model => [], :do => :GetMTAQuote, :navigation => [:CancelConfirm,:SaveConfirm]}
+                flow :SaveConfirm,           {:data_model => [], :do => :nothing, :navigation => [:Home, :close,:QuoteSearch]}
+                flow :CancelConfirm,         {:data_model => [], :do => :nothing, :navigation => [:Home, :close]}
+            endprocess
+
+            process :p_policymta
+            endprocess
+
+            process :p_fnol
+            endprocess
+        endproduct
+    endproducts
+
+endsiteprocesses

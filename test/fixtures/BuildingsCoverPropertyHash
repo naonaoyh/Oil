@@ -1,0 +1,795 @@
+BuildingsCover: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+BuildingsCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BuildingsCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverRequiredInd/Value"
+BuildingsCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail"
+  DayOnePercent: ""
+  DayOnePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IndexLinkedPercent: ""
+  IndexLinkedPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+BuildingsCoverCoverDetailCode: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverCoverDetailCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Code/Value"
+BuildingsCoverCoverDetailCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Code/ShortDescription"
+BuildingsCoverCoverDetailCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Code/Description"
+BuildingsCoverCoverDetailBasisCode: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/BasisCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverCoverDetailBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/BasisCode/Value"
+BuildingsCoverCoverDetailBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/BasisCode/ShortDescription"
+BuildingsCoverCoverDetailBasisCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/BasisCode/Description"
+BuildingsCoverCoverDetailAdjustmentMethodCode: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdjustmentMethodCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BuildingsCoverCoverDetailAdjustmentMethodCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdjustmentMethodCode/Value"
+BuildingsCoverCoverDetailAdjustmentMethodCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdjustmentMethodCode/ShortDescription"
+BuildingsCoverCoverDetailDayOnePercent: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/DayOnePercent"
+BuildingsCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+BuildingsCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/SumInsured/Amount"
+BuildingsCoverCoverDetailExcess: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+BuildingsCoverCoverDetailExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Excess/Amount"
+BuildingsCoverCoverDetailEndorsement: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverCoverDetailEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Endorsement/ReasonApplied"
+BuildingsCoverCoverDetailEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Endorsement/ShortWording"
+BuildingsCoverCoverDetailEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Endorsement/Wording"
+BuildingsCoverCoverDetailPerils: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Perils"
+BuildingsCoverCoverDetailPerilsCode: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Perils/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BuildingsCoverCoverDetailPerilsCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Perils/Code/Value"
+BuildingsCoverCoverDetailPerilsCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Perils/Code/ShortDescription"
+BuildingsCoverCoverDetailPerilsExcess: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Perils/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+BuildingsCoverCoverDetailPerilsExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Perils/Excess/Amount"
+BuildingsCoverCoverDetailPerilsExcessPercent: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Perils/Excess/Percent"
+BuildingsCoverCoverDetailTenantsImprovements: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TenantsImprovements"
+BuildingsCoverCoverDetailTenantsImprovementsCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TenantsImprovements/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BuildingsCoverCoverDetailTenantsImprovementsCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TenantsImprovements/CoverRequiredInd/Value"
+BuildingsCoverCoverDetailTenantsImprovementsCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TenantsImprovements/CoverDetail"
+BuildingsCoverCoverDetailTenantsImprovementsCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TenantsImprovements/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+BuildingsCoverCoverDetailTenantsImprovementsCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TenantsImprovements/CoverDetail/SumInsured/Amount"
+BuildingsCoverCoverDetailTenantsImprovementsCoverDetailExcess: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TenantsImprovements/CoverDetail/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+BuildingsCoverCoverDetailTenantsImprovementsCoverDetailExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TenantsImprovements/CoverDetail/Excess/Amount"
+BuildingsCoverCoverDetailTenantsImprovementsCoverDetailEndorsement: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TenantsImprovements/CoverDetail/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverCoverDetailTenantsImprovementsCoverDetailEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TenantsImprovements/CoverDetail/Endorsement/ReasonApplied"
+BuildingsCoverCoverDetailTenantsImprovementsCoverDetailEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TenantsImprovements/CoverDetail/Endorsement/ShortWording"
+BuildingsCoverCoverDetailTenantsImprovementsCoverDetailEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TenantsImprovements/CoverDetail/Endorsement/Wording"
+BuildingsCoverCoverDetailTenantsImprovementsExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TenantsImprovements/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BuildingsCoverCoverDetailTenantsImprovementsExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TenantsImprovements/ExcludedInd/Value"
+BuildingsCoverCoverDetailRentPayable: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/RentPayable"
+BuildingsCoverCoverDetailRentPayableCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/RentPayable/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BuildingsCoverCoverDetailRentPayableCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/RentPayable/CoverRequiredInd/Value"
+BuildingsCoverCoverDetailRentPayableCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/RentPayable/CoverDetail"
+  IndemnityPeriod: ""
+  IndemnityPeriodMD: !map:HashWithIndifferentAccess
+    type: "number"
+BuildingsCoverCoverDetailRentPayableCoverDetailIndemnityPeriod: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/RentPayable/CoverDetail/IndemnityPeriod"
+BuildingsCoverCoverDetailRentPayableCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/RentPayable/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+BuildingsCoverCoverDetailRentPayableCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/RentPayable/CoverDetail/SumInsured/Amount"
+BuildingsCoverCoverDetailRentPayableCoverDetailExcess: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/RentPayable/CoverDetail/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+BuildingsCoverCoverDetailRentPayableCoverDetailExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/RentPayable/CoverDetail/Excess/Amount"
+BuildingsCoverCoverDetailRentPayableCoverDetailEndorsement: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/RentPayable/CoverDetail/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverCoverDetailRentPayableCoverDetailEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/RentPayable/CoverDetail/Endorsement/ReasonApplied"
+BuildingsCoverCoverDetailRentPayableCoverDetailEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/RentPayable/CoverDetail/Endorsement/ShortWording"
+BuildingsCoverCoverDetailRentPayableCoverDetailEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/RentPayable/CoverDetail/Endorsement/Wording"
+BuildingsCoverCoverDetailRentPayableExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/RentPayable/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BuildingsCoverCoverDetailRentPayableExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/RentPayable/ExcludedInd/Value"
+BuildingsCoverCoverDetailIndexLinkedPercent: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/IndexLinkedPercent"
+BuildingsCoverCoverDetailShopFront: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/ShopFront"
+BuildingsCoverCoverDetailShopFrontCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/ShopFront/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BuildingsCoverCoverDetailShopFrontCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/ShopFront/CoverRequiredInd/Value"
+BuildingsCoverCoverDetailShopFrontCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/ShopFront/CoverDetail"
+BuildingsCoverCoverDetailShopFrontCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/ShopFront/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+BuildingsCoverCoverDetailShopFrontCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/ShopFront/CoverDetail/SumInsured/Amount"
+BuildingsCoverCoverDetailShopFrontCoverDetailExcess: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/ShopFront/CoverDetail/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+BuildingsCoverCoverDetailShopFrontCoverDetailExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/ShopFront/CoverDetail/Excess/Amount"
+BuildingsCoverCoverDetailShopFrontCoverDetailEndorsement: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/ShopFront/CoverDetail/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverCoverDetailShopFrontCoverDetailEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/ShopFront/CoverDetail/Endorsement/ReasonApplied"
+BuildingsCoverCoverDetailShopFrontCoverDetailEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/ShopFront/CoverDetail/Endorsement/ShortWording"
+BuildingsCoverCoverDetailShopFrontCoverDetailEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/ShopFront/CoverDetail/Endorsement/Wording"
+BuildingsCoverCoverDetailShopFrontExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/ShopFront/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BuildingsCoverCoverDetailShopFrontExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/ShopFront/ExcludedInd/Value"
+BuildingsCoverCoverDetailPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  CalculationAmount: ""
+  CalculationAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BasedOnAmount: ""
+  BasedOnAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  RunningTotal: ""
+  RunningTotalMD: !map:HashWithIndifferentAccess
+    type: "number"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownTypeCode: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/TypeCode/Value"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/TypeCode/ShortDescription"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownReasonCode: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/ReasonCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownReasonCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/ReasonCode/Value"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownReasonCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/ReasonCode/ShortDescription"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownReasonCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/ReasonCode/Description"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownPercent: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/Percent"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownCalculationAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/CalculationAmount"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownBasedOnAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/BasedOnAmount"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownRunningTotal: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/RunningTotal"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownDisplayFlagInd: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/DisplayFlagInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownDisplayFlagIndValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/DisplayFlagInd/Value"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/GrossAmount"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/Amount"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/BrokerageAmount"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/BrokeragePercent"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/IPTAmount"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/IPTPercent"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BuildingsCoverCoverDetailPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd/Value"
+BuildingsCoverCoverDetailTreesPlantsLawns: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TreesPlantsLawns"
+BuildingsCoverCoverDetailTreesPlantsLawnsCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TreesPlantsLawns/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BuildingsCoverCoverDetailTreesPlantsLawnsCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/TreesPlantsLawns/CoverRequiredInd/Value"
+BuildingsCoverCoverDetailAdditionalCover: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover"
+  IndemnityPeriod: ""
+  IndemnityPeriodMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+BuildingsCoverCoverDetailAdditionalCoverCode: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverCoverDetailAdditionalCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/Code/Value"
+BuildingsCoverCoverDetailAdditionalCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/Code/ShortDescription"
+BuildingsCoverCoverDetailAdditionalCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/Code/Description"
+BuildingsCoverCoverDetailAdditionalCoverIndemnityPeriod: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/IndemnityPeriod"
+BuildingsCoverCoverDetailAdditionalCoverSumInsured: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+BuildingsCoverCoverDetailAdditionalCoverSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/SumInsured/Amount"
+BuildingsCoverCoverDetailAdditionalCoverSumInsuredPercent: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/SumInsured/Percent"
+BuildingsCoverCoverDetailAdditionalCoverExcess: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+BuildingsCoverCoverDetailAdditionalCoverExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/Excess/Amount"
+BuildingsCoverCoverDetailAdditionalCoverExcessPercent: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/Excess/Percent"
+BuildingsCoverCoverDetailAdditionalCoverEndorsement: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverCoverDetailAdditionalCoverEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/Endorsement/ReasonApplied"
+BuildingsCoverCoverDetailAdditionalCoverEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/Endorsement/ShortWording"
+BuildingsCoverCoverDetailAdditionalCoverEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/Endorsement/Wording"
+BuildingsCoverCoverDetailAdditionalCoverPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+BuildingsCoverCoverDetailAdditionalCoverPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/PremiumQuoteBreakdown/GrossAmount"
+BuildingsCoverCoverDetailAdditionalCoverPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/PremiumQuoteBreakdown/BrokerageAmount"
+BuildingsCoverCoverDetailAdditionalCoverPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/PremiumQuoteBreakdown/BrokeragePercent"
+BuildingsCoverCoverDetailAdditionalCoverPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/PremiumQuoteBreakdown/IPTAmount"
+BuildingsCoverCoverDetailAdditionalCoverPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/PremiumQuoteBreakdown/IPTPercent"
+BuildingsCoverCoverDetailAdditionalCoverPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BuildingsCoverCoverDetailAdditionalCoverPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/PremiumQuoteBreakdown/MinAppliedInd/Value"
+BuildingsCoverCoverDetailAdditionalCoverNotes: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/Notes"
+BuildingsCoverCoverDetailAdditionalCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BuildingsCoverCoverDetailAdditionalCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/AdditionalCover/ExcludedInd/Value"
+BuildingsCoverCoverDetailNotes: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Notes"
+BuildingsCoverCoverDetailInformation: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverCoverDetailInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/Information/Description"
+BuildingsCoverCoverDetailNCDDetail: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/NCDDetail"
+  NCDYears: ""
+  NCDYearsMD: !map:HashWithIndifferentAccess
+    type: "number"
+BuildingsCoverCoverDetailNCDDetailNCDYears: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/NCDDetail/NCDYears"
+BuildingsCoverCoverDetailPaymentPlan: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PaymentPlan"
+BuildingsCoverCoverDetailPaymentPlanMethodOfPaymentCode: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PaymentPlan/MethodOfPaymentCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverCoverDetailPaymentPlanMethodOfPaymentCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PaymentPlan/MethodOfPaymentCode/Value"
+BuildingsCoverCoverDetailPaymentPlanMethodOfPaymentCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PaymentPlan/MethodOfPaymentCode/ShortDescription"
+BuildingsCoverCoverDetailPaymentPlanMethodOfPaymentCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PaymentPlan/MethodOfPaymentCode/Description"
+BuildingsCoverCoverDetailPriorInsurer: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PriorInsurer"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverCoverDetailPriorInsurerCode: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PriorInsurer/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverCoverDetailPriorInsurerCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PriorInsurer/Code/ListOwner"
+BuildingsCoverCoverDetailPriorInsurerCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PriorInsurer/Code/ListNo"
+BuildingsCoverCoverDetailPriorInsurerCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PriorInsurer/Code/Value"
+BuildingsCoverCoverDetailPriorInsurerCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PriorInsurer/Code/ShortDescription"
+BuildingsCoverCoverDetailPriorInsurerCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PriorInsurer/Code/Description"
+BuildingsCoverCoverDetailPriorInsurerCompanyName: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/CoverDetail/PriorInsurer/CompanyName"
+BuildingsCoverAdditionalCover: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/AdditionalCover"
+BuildingsCoverAdditionalCoverCode: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/AdditionalCover/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverAdditionalCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/AdditionalCover/Code/Value"
+BuildingsCoverAdditionalCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/AdditionalCover/Code/ShortDescription"
+BuildingsCoverAdditionalCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/AdditionalCover/Code/Description"
+BuildingsCoverAdditionalCoverSumInsured: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/AdditionalCover/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+BuildingsCoverAdditionalCoverSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/AdditionalCover/SumInsured/Amount"
+BuildingsCoverAdditionalCoverEndorsement: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/AdditionalCover/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverAdditionalCoverEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/AdditionalCover/Endorsement/ReasonApplied"
+BuildingsCoverAdditionalCoverEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/AdditionalCover/Endorsement/ShortWording"
+BuildingsCoverAdditionalCoverEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/AdditionalCover/Endorsement/Wording"
+BuildingsCoverAdditionalCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/AdditionalCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BuildingsCoverAdditionalCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/AdditionalCover/ExcludedInd/Value"
+BuildingsCoverPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  CalculationAmount: ""
+  CalculationAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BasedOnAmount: ""
+  BasedOnAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  RunningTotal: ""
+  RunningTotalMD: !map:HashWithIndifferentAccess
+    type: "number"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+BuildingsCoverPremiumQuoteBreakdownTypeCode: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BuildingsCoverPremiumQuoteBreakdownTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/TypeCode/Value"
+BuildingsCoverPremiumQuoteBreakdownTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/TypeCode/ShortDescription"
+BuildingsCoverPremiumQuoteBreakdownReasonCode: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/ReasonCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverPremiumQuoteBreakdownReasonCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/ReasonCode/Value"
+BuildingsCoverPremiumQuoteBreakdownReasonCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/ReasonCode/ShortDescription"
+BuildingsCoverPremiumQuoteBreakdownReasonCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/ReasonCode/Description"
+BuildingsCoverPremiumQuoteBreakdownPercent: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/Percent"
+BuildingsCoverPremiumQuoteBreakdownCalculationAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/CalculationAmount"
+BuildingsCoverPremiumQuoteBreakdownBasedOnAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/BasedOnAmount"
+BuildingsCoverPremiumQuoteBreakdownRunningTotal: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/RunningTotal"
+BuildingsCoverPremiumQuoteBreakdownDisplayFlagInd: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/DisplayFlagInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BuildingsCoverPremiumQuoteBreakdownDisplayFlagIndValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/DisplayFlagInd/Value"
+BuildingsCoverPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/GrossAmount"
+BuildingsCoverPremiumQuoteBreakdownAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/Amount"
+BuildingsCoverPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/BrokerageAmount"
+BuildingsCoverPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/BrokeragePercent"
+BuildingsCoverPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/IPTAmount"
+BuildingsCoverPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/IPTPercent"
+BuildingsCoverPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BuildingsCoverPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/PremiumQuoteBreakdown/MinAppliedInd/Value"
+BuildingsCoverNotes: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/Notes"
+BuildingsCoverInformation: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BuildingsCoverInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/Information/Description"
+BuildingsCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BuildingsCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BuildingsCover/ExcludedInd/Value"

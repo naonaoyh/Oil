@@ -1,0 +1,3 @@
+entity :Insured
+    use :Address, :Postcode
+endentity

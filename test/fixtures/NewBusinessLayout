@@ -1,0 +1,55 @@
+product "Anything"
+navigation [:save,:buy]
+layout 21
+	
+    columns
+    
+    column 1
+
+	widget :messagebox
+    	endwidget   
+    	
+        widget :logo
+        endwidget
+
+        widget :submit_panel
+
+            widget :page_title
+            endwidget
+
+            widget :progress_bar
+            endwidget
+
+            widget :help_instructions
+            endwidget
+
+            widget :extending_panel,{:title => :yourbusiness, :myarg => :beany}
+                entity :Insured
+            endwidget
+
+            widget :extending_panel,{:title => :yourcover}
+                
+                coverage :BuildingsCover
+                coverage :ContentsCover
+                coverage :BookDebtsCover
+                coverage :MoneyCover
+                coverage :BusinessInterruptionCover
+                coverage :LossOfLicenceCover
+
+            endwidget
+
+            widget :extending_panel,{:title => :yourhistory}
+            endwidget
+
+            widget :button_panel
+            endwidget
+
+         endwidget
+    endcolumn
+    
+    endcolumns
+    
+    footer
+    endfooter
+    
+endlayout 

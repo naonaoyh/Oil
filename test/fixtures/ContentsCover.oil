@@ -1,0 +1,3 @@
+coverage :ContentsCover
+    use :CoverDetail,:SumInsured
+endcoverage

@@ -1,0 +1,31 @@
+FireTheftCoverage: !map:HashWithIndifferentAccess
+	xpath:	"FireTheftCoverage"
+FireTheftCoverageFinancials: !map:HashWithIndifferentAccess
+	xpath:	"FireTheftCoverage/Financials"
+FireTheftCoverageFinancialsExcess: !map:HashWithIndifferentAccess
+	xpath:	"FireTheftCoverage/Financials/Excess"
+	Amount: ""
+FireTheftCoverageFinancialsSumInsured: !map:HashWithIndifferentAccess
+	xpath:	"FireTheftCoverage/Financials/SumInsured"
+	Amount: ""
+FireTheftCoverageFinancialsPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+	xpath:	"FireTheftCoverage/Financials/PremiumQuoteBreakdown"
+	GrossAmount: ""
+	BrokerageAmount: ""
+	BrokeragePercent: ""
+	IPTAmount: ""
+	IPTPercent: ""
+FireTheftCoverageFinancialsExcessAmount !map:HashWithIndifferentAccess
+	xpath: "FireTheftCoverage/Financials/Excess/Amount"
+FireTheftCoverageFinancialsSumInsuredAmount !map:HashWithIndifferentAccess
+	xpath: "FireTheftCoverage/Financials/SumInsured/Amount"
+FireTheftCoverageFinancialsPremiumQuoteBreakdownGrossAmount !map:HashWithIndifferentAccess
+	xpath: "FireTheftCoverage/Financials/PremiumQuoteBreakdown/GrossAmount"
+FireTheftCoverageFinancialsPremiumQuoteBreakdownBrokerageAmount !map:HashWithIndifferentAccess
+	xpath: "FireTheftCoverage/Financials/PremiumQuoteBreakdown/BrokerageAmount"
+FireTheftCoverageFinancialsPremiumQuoteBreakdownBrokeragePercent !map:HashWithIndifferentAccess
+	xpath: "FireTheftCoverage/Financials/PremiumQuoteBreakdown/BrokeragePercent"
+FireTheftCoverageFinancialsPremiumQuoteBreakdownIPTAmount !map:HashWithIndifferentAccess
+	xpath: "FireTheftCoverage/Financials/PremiumQuoteBreakdown/IPTAmount"
+FireTheftCoverageFinancialsPremiumQuoteBreakdownIPTPercent !map:HashWithIndifferentAccess
+	xpath: "FireTheftCoverage/Financials/PremiumQuoteBreakdown/IPTPercent"

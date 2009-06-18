@@ -1,0 +1,3 @@
+coverage :EmployersLiabilityCover
+    use :CoverDetail,:SafetyPolicy
+endcoverage

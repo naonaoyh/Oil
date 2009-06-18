@@ -1,0 +1,561 @@
+Policy: !map:HashWithIndifferentAccess
+  xpath: "Policy"
+  PolicyNumber: ""
+  PolicyNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ReplacedPolicyNumber: ""
+  ReplacedPolicyNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  DateGenerated: ""
+  DateGeneratedMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  TimeGenerated: ""
+  TimeGeneratedMD: !map:HashWithIndifferentAccess
+    type: "time"
+  StartDate: ""
+  StartDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  StartTime: ""
+  StartTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  EndDate: ""
+  EndDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  EndTime: ""
+  EndTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  RespondByDate: ""
+  RespondByDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  OriginalInceptionDate: ""
+  OriginalInceptionDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  InsuredTitle: ""
+  InsuredTitleMD: !map:HashWithIndifferentAccess
+    type: "text"
+  LTUInPlaceExpiryDate: ""
+  LTUInPlaceExpiryDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  LTUPeriod: ""
+  LTUPeriodMD: !map:HashWithIndifferentAccess
+    type: "number"
+  AgencyAccountRef: ""
+  AgencyAccountRefMD: !map:HashWithIndifferentAccess
+    type: "text"
+  AuthorityLevel: ""
+  AuthorityLevelMD: !map:HashWithIndifferentAccess
+    type: "number"
+  ProductName: ""
+  ProductNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  TargetPremium: ""
+  TargetPremiumMD: !map:HashWithIndifferentAccess
+    type: "number"
+  TargetCommission: ""
+  TargetCommissionMD: !map:HashWithIndifferentAccess
+    type: "number"
+  LastYearPremium: ""
+  LastYearPremiumMD: !map:HashWithIndifferentAccess
+    type: "number"
+PolicyPolicyNumber: !map:HashWithIndifferentAccess
+  xpath: "Policy/PolicyNumber"
+PolicyReferRenewalInd: !map:HashWithIndifferentAccess
+  xpath: "Policy/ReferRenewalInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PolicyReferRenewalIndValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/ReferRenewalInd/Value"
+PolicyReplacedPolicyNumber: !map:HashWithIndifferentAccess
+  xpath: "Policy/ReplacedPolicyNumber"
+PolicyDateGenerated: !map:HashWithIndifferentAccess
+  xpath: "Policy/DateGenerated"
+PolicyTimeGenerated: !map:HashWithIndifferentAccess
+  xpath: "Policy/TimeGenerated"
+PolicyStartDate: !map:HashWithIndifferentAccess
+  xpath: "Policy/StartDate"
+PolicyStartTime: !map:HashWithIndifferentAccess
+  xpath: "Policy/StartTime"
+PolicyEndDate: !map:HashWithIndifferentAccess
+  xpath: "Policy/EndDate"
+PolicyEndTime: !map:HashWithIndifferentAccess
+  xpath: "Policy/EndTime"
+PolicyDuration: !map:HashWithIndifferentAccess
+  xpath: "Policy/Duration"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+PolicyDurationUnit: !map:HashWithIndifferentAccess
+  xpath: "Policy/Duration/Unit"
+PolicyDurationType: !map:HashWithIndifferentAccess
+  xpath: "Policy/Duration/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+PolicyDurationTypeValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/Duration/Type/Value"
+PolicyDurationTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/Duration/Type/ShortDescription"
+PolicyRespondByDate: !map:HashWithIndifferentAccess
+  xpath: "Policy/RespondByDate"
+PolicyResponseTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Policy/ResponseTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PolicyResponseTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/ResponseTypeCode/Value"
+PolicyResponseTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/ResponseTypeCode/ShortDescription"
+PolicyResponseTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/ResponseTypeCode/Description"
+PolicyOriginalInceptionDate: !map:HashWithIndifferentAccess
+  xpath: "Policy/OriginalInceptionDate"
+PolicyRequestTempCoverInd: !map:HashWithIndifferentAccess
+  xpath: "Policy/RequestTempCoverInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PolicyRequestTempCoverIndValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/RequestTempCoverInd/Value"
+PolicyTemporaryChangeInd: !map:HashWithIndifferentAccess
+  xpath: "Policy/TemporaryChangeInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PolicyTemporaryChangeIndValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/TemporaryChangeInd/Value"
+PolicyDocumentsPrintedInd: !map:HashWithIndifferentAccess
+  xpath: "Policy/DocumentsPrintedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PolicyDocumentsPrintedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/DocumentsPrintedInd/Value"
+PolicyInsuredTitle: !map:HashWithIndifferentAccess
+  xpath: "Policy/InsuredTitle"
+PolicyNetRatedInd: !map:HashWithIndifferentAccess
+  xpath: "Policy/NetRatedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PolicyNetRatedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/NetRatedInd/Value"
+PolicyNetRatedRequestInd: !map:HashWithIndifferentAccess
+  xpath: "Policy/NetRatedRequestInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PolicyNetRatedRequestIndValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/NetRatedRequestInd/Value"
+PolicyLTUInPlaceInd: !map:HashWithIndifferentAccess
+  xpath: "Policy/LTUInPlaceInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PolicyLTUInPlaceIndValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/LTUInPlaceInd/Value"
+PolicyLTUInPlaceExpiryDate: !map:HashWithIndifferentAccess
+  xpath: "Policy/LTUInPlaceExpiryDate"
+PolicyLTURequiredInd: !map:HashWithIndifferentAccess
+  xpath: "Policy/LTURequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PolicyLTURequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/LTURequiredInd/Value"
+PolicyLTUPeriod: !map:HashWithIndifferentAccess
+  xpath: "Policy/LTUPeriod"
+PolicyLTUBasisCode: !map:HashWithIndifferentAccess
+  xpath: "Policy/LTUBasisCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PolicyLTUBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/LTUBasisCode/Value"
+PolicyLTUBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/LTUBasisCode/ShortDescription"
+PolicyLTUBasisCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/LTUBasisCode/Description"
+PolicyPaymentMethodCode: !map:HashWithIndifferentAccess
+  xpath: "Policy/PaymentMethodCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PolicyPaymentMethodCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/PaymentMethodCode/Value"
+PolicyPaymentMethodCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/PaymentMethodCode/ShortDescription"
+PolicyPaymentMethodCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/PaymentMethodCode/Description"
+PolicyPremiumBasisCode: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumBasisCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PolicyPremiumBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumBasisCode/Value"
+PolicyPremiumBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumBasisCode/ShortDescription"
+PolicyPremiumBasisCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumBasisCode/Description"
+PolicyAgencyAccountRef: !map:HashWithIndifferentAccess
+  xpath: "Policy/AgencyAccountRef"
+PolicyHoldingBrokerInd: !map:HashWithIndifferentAccess
+  xpath: "Policy/HoldingBrokerInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PolicyHoldingBrokerIndValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/HoldingBrokerInd/Value"
+PolicyHoldingBrokerIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/HoldingBrokerInd/Description"
+PolicyClientMandateInd: !map:HashWithIndifferentAccess
+  xpath: "Policy/ClientMandateInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PolicyClientMandateIndValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/ClientMandateInd/Value"
+PolicyPreviousCertValidInd: !map:HashWithIndifferentAccess
+  xpath: "Policy/PreviousCertValidInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PolicyPreviousCertValidIndValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/PreviousCertValidInd/Value"
+PolicyDirectClaimsInd: !map:HashWithIndifferentAccess
+  xpath: "Policy/DirectClaimsInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PolicyDirectClaimsIndValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/DirectClaimsInd/Value"
+PolicyCoverCode: !map:HashWithIndifferentAccess
+  xpath: "Policy/CoverCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PolicyCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/CoverCode/Value"
+PolicyCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/CoverCode/ShortDescription"
+PolicyCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/CoverCode/Description"
+PolicyAuthorityLevel: !map:HashWithIndifferentAccess
+  xpath: "Policy/AuthorityLevel"
+PolicyStatusCode: !map:HashWithIndifferentAccess
+  xpath: "Policy/StatusCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PolicyStatusCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/StatusCode/Value"
+PolicyStatusCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/StatusCode/ShortDescription"
+PolicyStatusCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/StatusCode/Description"
+PolicyProductName: !map:HashWithIndifferentAccess
+  xpath: "Policy/ProductName"
+PolicyOutcomeCode: !map:HashWithIndifferentAccess
+  xpath: "Policy/OutcomeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PolicyOutcomeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/OutcomeCode/Value"
+PolicyOutcomeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/OutcomeCode/ShortDescription"
+PolicyOutcomeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/OutcomeCode/Description"
+PolicyTargetPremium: !map:HashWithIndifferentAccess
+  xpath: "Policy/TargetPremium"
+PolicyTargetCommission: !map:HashWithIndifferentAccess
+  xpath: "Policy/TargetCommission"
+PolicyLastYearPremium: !map:HashWithIndifferentAccess
+  xpath: "Policy/LastYearPremium"
+PolicyPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  VATAmount: ""
+  VATAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  MinAmount: ""
+  MinAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  VATPercent: ""
+  VATPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  AmountInclCommExclTax: ""
+  AmountInclCommExclTaxMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+PolicyPremiumQuoteBreakdownTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumQuoteBreakdown/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+PolicyPremiumQuoteBreakdownTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumQuoteBreakdown/TypeCode/Value"
+PolicyPremiumQuoteBreakdownTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumQuoteBreakdown/TypeCode/ShortDescription"
+PolicyPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumQuoteBreakdown/GrossAmount"
+PolicyPremiumQuoteBreakdownAmount: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumQuoteBreakdown/Amount"
+PolicyPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumQuoteBreakdown/BrokerageAmount"
+PolicyPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumQuoteBreakdown/BrokeragePercent"
+PolicyPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumQuoteBreakdown/IPTAmount"
+PolicyPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumQuoteBreakdown/IPTPercent"
+PolicyPremiumQuoteBreakdownVATAmount: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumQuoteBreakdown/VATAmount"
+PolicyPremiumQuoteBreakdownMinAmount: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumQuoteBreakdown/MinAmount"
+PolicyPremiumQuoteBreakdownVATPercent: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumQuoteBreakdown/VATPercent"
+PolicyPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PolicyPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumQuoteBreakdown/MinAppliedInd/Value"
+PolicyPremiumQuoteBreakdownAmountInclCommExclTax: !map:HashWithIndifferentAccess
+  xpath: "Policy/PremiumQuoteBreakdown/AmountInclCommExclTax"
+PolicyEndorsement: !map:HashWithIndifferentAccess
+  xpath: "Policy/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+PolicyEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "Policy/Endorsement/ReasonApplied"
+PolicyEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "Policy/Endorsement/ShortWording"
+PolicyEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "Policy/Endorsement/Wording"
+PolicyQuoteCondition: !map:HashWithIndifferentAccess
+  xpath: "Policy/QuoteCondition"
+PolicyQuoteConditionItemTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Policy/QuoteCondition/ItemTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PolicyQuoteConditionItemTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/QuoteCondition/ItemTypeCode/Value"
+PolicyQuoteConditionItemTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/QuoteCondition/ItemTypeCode/ShortDescription"
+PolicyQuoteConditionItemTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/QuoteCondition/ItemTypeCode/Description"
+PolicyQuoteConditionContact: !map:HashWithIndifferentAccess
+  xpath: "Policy/QuoteCondition/Contact"
+  WorkTelephoneNo: ""
+  WorkTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EmailAddress: ""
+  EmailAddressMD: !map:HashWithIndifferentAccess
+    type: "text"
+PolicyQuoteConditionContactIndividualName: !map:HashWithIndifferentAccess
+  xpath: "Policy/QuoteCondition/Contact/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+PolicyQuoteConditionContactIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "Policy/QuoteCondition/Contact/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+PolicyQuoteConditionContactIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/QuoteCondition/Contact/IndividualName/TitleCode/Value"
+PolicyQuoteConditionContactIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/QuoteCondition/Contact/IndividualName/TitleCode/ShortDescription"
+PolicyQuoteConditionContactIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "Policy/QuoteCondition/Contact/IndividualName/FirstForename"
+PolicyQuoteConditionContactIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "Policy/QuoteCondition/Contact/IndividualName/Surname"
+PolicyQuoteConditionContactWorkTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Policy/QuoteCondition/Contact/WorkTelephoneNo"
+PolicyQuoteConditionContactEmailAddress: !map:HashWithIndifferentAccess
+  xpath: "Policy/QuoteCondition/Contact/EmailAddress"
+PolicyInformation: !map:HashWithIndifferentAccess
+  xpath: "Policy/Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PolicyInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/Information/Description"
+PolicySoldWithMortgageInd: !map:HashWithIndifferentAccess
+  xpath: "Policy/SoldWithMortgageInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PolicySoldWithMortgageIndValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/SoldWithMortgageInd/Value"
+PolicySoldWithMortgageIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/SoldWithMortgageInd/Description"
+PolicyExcess: !map:HashWithIndifferentAccess
+  xpath: "Policy/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+PolicyExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "Policy/Excess/Amount"
+PolicyExcessExcessTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Policy/Excess/ExcessTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PolicyExcessExcessTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Policy/Excess/ExcessTypeCode/Value"
+PolicyExcessExcessTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/Excess/ExcessTypeCode/ShortDescription"
+PolicyExcessExcessTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Policy/Excess/ExcessTypeCode/Description"
+PolicyWindscreenExcess: !map:HashWithIndifferentAccess
+  xpath: "Policy/WindscreenExcess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+PolicyWindscreenExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "Policy/WindscreenExcess/Amount"

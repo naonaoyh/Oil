@@ -1,0 +1,169 @@
+LossOfLicenceCover: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover"
+LossOfLicenceCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LossOfLicenceCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverRequiredInd/Value"
+LossOfLicenceCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail"
+LossOfLicenceCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+LossOfLicenceCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/SumInsured/Amount"
+LossOfLicenceCoverCoverDetailSumInsuredPercent: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/SumInsured/Percent"
+LossOfLicenceCoverCoverDetailAccreditation: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation"
+LossOfLicenceCoverCoverDetailAccreditationCode: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossOfLicenceCoverCoverDetailAccreditationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation/Code/Value"
+LossOfLicenceCoverCoverDetailAccreditationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation/Code/ShortDescription"
+LossOfLicenceCoverCoverDetailAccreditationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation/Code/Description"
+LossOfLicenceCoverCoverDetailAccreditationOppositionInd: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation/OppositionInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LossOfLicenceCoverCoverDetailAccreditationOppositionIndValue: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation/OppositionInd/Value"
+LossOfLicenceCoverCoverDetailAccreditationRefusalInd: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation/RefusalInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LossOfLicenceCoverCoverDetailAccreditationRefusalIndValue: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation/RefusalInd/Value"
+LossOfLicenceCoverCoverDetailAccreditationTransferInd: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation/TransferInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LossOfLicenceCoverCoverDetailAccreditationTransferIndValue: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation/TransferInd/Value"
+LossOfLicenceCoverCoverDetailAccreditationWarningsInd: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation/WarningsInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossOfLicenceCoverCoverDetailAccreditationWarningsIndValue: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation/WarningsInd/Value"
+LossOfLicenceCoverCoverDetailAccreditationWarningsIndDescription: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation/WarningsInd/Description"
+LossOfLicenceCoverCoverDetailAccreditationSuspensionInd: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation/SuspensionInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossOfLicenceCoverCoverDetailAccreditationSuspensionIndValue: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation/SuspensionInd/Value"
+LossOfLicenceCoverCoverDetailAccreditationSuspensionIndDescription: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Accreditation/SuspensionInd/Description"
+LossOfLicenceCoverCoverDetailExcess: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+LossOfLicenceCoverCoverDetailExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Excess/Amount"
+LossOfLicenceCoverCoverDetailEndorsement: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossOfLicenceCoverCoverDetailEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Endorsement/ReasonApplied"
+LossOfLicenceCoverCoverDetailEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Endorsement/ShortWording"
+LossOfLicenceCoverCoverDetailEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/Endorsement/Wording"
+LossOfLicenceCoverCoverDetailPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+LossOfLicenceCoverCoverDetailPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/PremiumQuoteBreakdown/GrossAmount"
+LossOfLicenceCoverCoverDetailPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/PremiumQuoteBreakdown/BrokerageAmount"
+LossOfLicenceCoverCoverDetailPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/PremiumQuoteBreakdown/BrokeragePercent"
+LossOfLicenceCoverCoverDetailPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/PremiumQuoteBreakdown/IPTAmount"
+LossOfLicenceCoverCoverDetailPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/PremiumQuoteBreakdown/IPTPercent"
+LossOfLicenceCoverCoverDetailPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LossOfLicenceCoverCoverDetailPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd/Value"
+LossOfLicenceCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LossOfLicenceCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "LossOfLicenceCover/ExcludedInd/Value"

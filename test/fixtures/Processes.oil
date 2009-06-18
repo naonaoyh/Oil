@@ -1,0 +1,55 @@
+channels
+ channel :default
+  processes
+    process :QNB
+        #the following causes the DSL interpreter to
+        #1) create a ruote process definition
+        #2) create RAILS controller actions that yield to pre-defined ruote participents
+
+        workflow_steps
+            step :ProductSelection,      {:template => :ProductSelection,:layout => :blank}
+            step :QuoteSearch,           {:template => :QuoteSearch,:layout => :blank}
+            step :SearchResult,          {:do => :Search, :template => :SearchResult,:layout => :blank}
+            step :QNBRiskDataCollect,    {:template => :QNBRiskDataCollect,:layout => :blank}
+            step :MTARiskDataCollect,    {:do => :FindPolicyOrQuote, :template => :MTARiskDataUpdate,:layout => :blank}
+            step :QNBPremiumAddOns,      {:do => :GetNBQuote, :template => :QNBPremiumAddOns,:layout => :blank}
+            step :MTARiskDataUpdate,     {:do => :GetMTAQuote,:template => :MTARiskDataUpdate,:layout => :blank}
+            step :QuoteSummary,          {:do => :RefineNBQuote, :template => :QuoteSummary,:layout => :blank}
+            step :MTASummary,            {:do => :GetMTAQuote, :template => :QuoteSummary,:layout => :blank}
+            step :DeclineRefer,          {:template => :ReviewDecline,:layout => :blank}
+            step :TakePayment,           {:do => :RefineNBQuote, :template => :TakePayment,:layout => :blank}
+            step :PaymentCheckout,       {:do => :Checkout, :template => :PaypalFormSubstitutedHere,:layout => :blank}
+            step :PaymentConfirm,        {:do => :ConfirmPayment, :template => :PaymentConfirm,:layout => :blank}
+            step :PaymentComplete,       {:do => :CompletedPayment, :template => :PaymentComplete,:layout => :blank}
+            step :SaveConfirm,           {:do => :Save, :template => :SaveConfirm,:layout => :blank}
+            step :CancelConfirm,         {:template => :CancelConfirm,:layout => :blank}
+            step :Errored,               {:template => :Errored,:layout => :blank}
+        endworkflow_steps
+
+        #the following defines validation leaps around the workflow
+        #it allows navigation buttons to be derived for use in each of the step templates
+        #i.e. buttons are automatically be created inside a button panel widget
+
+        valid_flows
+            flow :ProductSelection,      [:QNBRiskDataCollect, :QuoteSearch, :PolicySearch, :CancelConfirm]
+            flow :QuoteSearch,           [:SearchResult, :CancelConfirm]
+            flow :SearchResult,          [:MTARiskDataCollect, :CancelConfirm]
+            flow :QNBRiskDataCollect,    [:QNBPremiumAddOns, :CancelConfirm,:SaveConfirm]
+            flow :MTARiskDataCollect,    [:MTASummary, :CancelConfirm,:SaveConfirm]
+            flow :QNBPremiumAddOns,      [:QuoteSummary, :CancelConfirm,:SaveConfirm]
+            flow :MTARiskDataUpdate,     [:QNBPremiumAddOns, :CancelConfirm,:SaveConfirm]
+            flow :QuoteSummary,          [:TakePayment, :CancelConfirm,:SaveConfirm]
+            flow :MTASummary,            [:TakePayment, :CancelConfirm,:SaveConfirm]
+            flow :DeclineRefer,          [:ProductSelection, :close]
+            flow :TakePayment,           [:PaymentCheckout, :CancelConfirm]
+            flow :PaymentCheckout,       [:PaymentConfirm, :close]
+            flow :PaymentConfirm,        [:PaymentComplete, :close]
+            flow :PaymentComplete,       [:ProductSelection, :close]
+            flow :SaveConfirm,           [:ProductSelection, :close,:QuoteSearch]
+            flow :CancelConfirm,         [:ProductSelection, :close]
+            flow :Errored,               [:ProductSelection, :close]
+        endvalid_flows
+
+   endprocess
+  endprocesses
+endchannel

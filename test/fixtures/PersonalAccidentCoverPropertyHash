@@ -1,0 +1,458 @@
+PersonalAccidentCover: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover"
+  Notes: ""
+PersonalAccidentCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverRequiredInd"
+  Value: ""
+PersonalAccidentCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverRequiredInd/Value"
+PersonalAccidentCoverPremises: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Premises"
+  NoOf: ""
+PersonalAccidentCoverPremisesNoOf: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Premises/NoOf"
+PersonalAccidentCoverPremisesAddress: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Premises/Address"
+  Postcode: ""
+PersonalAccidentCoverPremisesAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Premises/Address/Postcode"
+PersonalAccidentCoverEmployee: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Employee"
+  NoOfEmployees: ""
+  Wages: ""
+  MaximumAnnualSalary: ""
+PersonalAccidentCoverEmployeeNoOfEmployees: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Employee/NoOfEmployees"
+PersonalAccidentCoverEmployeeWages: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Employee/Wages"
+PersonalAccidentCoverEmployeeMaximumAnnualSalary: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Employee/MaximumAnnualSalary"
+PersonalAccidentCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail"
+PersonalAccidentCoverCoverDetailBasisCode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/BasisCode"
+  Value: ""
+  ShortDescription: ""
+  Description: ""
+PersonalAccidentCoverCoverDetailBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/BasisCode/Value"
+PersonalAccidentCoverCoverDetailBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/BasisCode/ShortDescription"
+PersonalAccidentCoverCoverDetailBasisCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/BasisCode/Description"
+PersonalAccidentCoverCoverDetailCapitalBenefit: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/CapitalBenefit"
+  Amount: ""
+  Multiplier: ""
+PersonalAccidentCoverCoverDetailCapitalBenefitAmount: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/CapitalBenefit/Amount"
+PersonalAccidentCoverCoverDetailCapitalBenefitMultiplier: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/CapitalBenefit/Multiplier"
+PersonalAccidentCoverCoverDetailCapitalBenefitBasisCode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/CapitalBenefit/BasisCode"
+  Value: ""
+  ShortDescription: ""
+PersonalAccidentCoverCoverDetailCapitalBenefitBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/CapitalBenefit/BasisCode/Value"
+PersonalAccidentCoverCoverDetailCapitalBenefitBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/CapitalBenefit/BasisCode/ShortDescription"
+PersonalAccidentCoverCoverDetailGroupDetail: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail"
+  NoOfEmployees: ""
+  Wages: ""
+PersonalAccidentCoverCoverDetailGroupDetailEmploymentTypeCode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/EmploymentTypeCode"
+  Value: ""
+  ShortDescription: ""
+PersonalAccidentCoverCoverDetailGroupDetailEmploymentTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/EmploymentTypeCode/Value"
+PersonalAccidentCoverCoverDetailGroupDetailEmploymentTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/EmploymentTypeCode/ShortDescription"
+PersonalAccidentCoverCoverDetailGroupDetailPAGroupCode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/PAGroupCode"
+  Value: ""
+  ShortDescription: ""
+  Description: ""
+PersonalAccidentCoverCoverDetailGroupDetailPAGroupCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/PAGroupCode/Value"
+PersonalAccidentCoverCoverDetailGroupDetailPAGroupCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/PAGroupCode/ShortDescription"
+PersonalAccidentCoverCoverDetailGroupDetailPAGroupCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/PAGroupCode/Description"
+PersonalAccidentCoverCoverDetailGroupDetailActivity: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/Activity"
+PersonalAccidentCoverCoverDetailGroupDetailActivityCode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/Activity/Code"
+  Value: ""
+  ShortDescription: ""
+PersonalAccidentCoverCoverDetailGroupDetailActivityCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/Activity/Code/Value"
+PersonalAccidentCoverCoverDetailGroupDetailActivityCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/Activity/Code/ShortDescription"
+PersonalAccidentCoverCoverDetailGroupDetailActivityEmploymentStatusCode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/Activity/EmploymentStatusCode"
+  Value: ""
+  ShortDescription: ""
+  Description: ""
+PersonalAccidentCoverCoverDetailGroupDetailActivityEmploymentStatusCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/Activity/EmploymentStatusCode/Value"
+PersonalAccidentCoverCoverDetailGroupDetailActivityEmploymentStatusCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/Activity/EmploymentStatusCode/ShortDescription"
+PersonalAccidentCoverCoverDetailGroupDetailActivityEmploymentStatusCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/Activity/EmploymentStatusCode/Description"
+PersonalAccidentCoverCoverDetailGroupDetailNoOfEmployees: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/NoOfEmployees"
+PersonalAccidentCoverCoverDetailGroupDetailWages: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/GroupDetail/Wages"
+PersonalAccidentCoverCoverDetailIndividualDetail: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/IndividualDetail"
+  Id: ""
+  BirthDate: ""
+PersonalAccidentCoverCoverDetailIndividualDetailId: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/IndividualDetail/Id"
+PersonalAccidentCoverCoverDetailIndividualDetailIndividualName: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/IndividualDetail/IndividualName"
+  FirstForename: ""
+  Surname: ""
+PersonalAccidentCoverCoverDetailIndividualDetailIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/IndividualDetail/IndividualName/TitleCode"
+  Value: ""
+  ShortDescription: ""
+PersonalAccidentCoverCoverDetailIndividualDetailIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/IndividualDetail/IndividualName/TitleCode/Value"
+PersonalAccidentCoverCoverDetailIndividualDetailIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/IndividualDetail/IndividualName/TitleCode/ShortDescription"
+PersonalAccidentCoverCoverDetailIndividualDetailIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/IndividualDetail/IndividualName/FirstForename"
+PersonalAccidentCoverCoverDetailIndividualDetailIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/IndividualDetail/IndividualName/Surname"
+PersonalAccidentCoverCoverDetailIndividualDetailBirthDate: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/IndividualDetail/BirthDate"
+PersonalAccidentCoverCoverDetailAdditionalCover: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover"
+PersonalAccidentCoverCoverDetailAdditionalCoverCode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/Code"
+  Value: ""
+  ShortDescription: ""
+PersonalAccidentCoverCoverDetailAdditionalCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/Code/Value"
+PersonalAccidentCoverCoverDetailAdditionalCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/Code/ShortDescription"
+PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefit: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/WeeklyBenefit"
+  Amount: ""
+PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitAmount: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/WeeklyBenefit/Amount"
+PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitWaitingPeriod: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/WeeklyBenefit/WaitingPeriod"
+  Unit: ""
+PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitWaitingPeriodUnit: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/WeeklyBenefit/WaitingPeriod/Unit"
+PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitWaitingPeriodType: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/WeeklyBenefit/WaitingPeriod/Type"
+  Value: ""
+  ShortDescription: ""
+PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitWaitingPeriodTypeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/WeeklyBenefit/WaitingPeriod/Type/Value"
+PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitWaitingPeriodTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/WeeklyBenefit/WaitingPeriod/Type/ShortDescription"
+PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitDuration: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/WeeklyBenefit/Duration"
+  Unit: ""
+PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitDurationUnit: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/WeeklyBenefit/Duration/Unit"
+PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitDurationType: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/WeeklyBenefit/Duration/Type"
+  Value: ""
+  ShortDescription: ""
+PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitDurationTypeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/WeeklyBenefit/Duration/Type/Value"
+PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitDurationTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/WeeklyBenefit/Duration/Type/ShortDescription"
+PersonalAccidentCoverCoverDetailAdditionalCoverSumInsured: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/SumInsured"
+  Amount: ""
+  Percent: ""
+PersonalAccidentCoverCoverDetailAdditionalCoverSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/SumInsured/Amount"
+PersonalAccidentCoverCoverDetailAdditionalCoverSumInsuredPercent: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/SumInsured/Percent"
+PersonalAccidentCoverCoverDetailAdditionalCoverExcess: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/Excess"
+  Amount: ""
+PersonalAccidentCoverCoverDetailAdditionalCoverExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/Excess/Amount"
+PersonalAccidentCoverCoverDetailAdditionalCoverExcessPeriod: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/ExcessPeriod"
+  Unit: ""
+PersonalAccidentCoverCoverDetailAdditionalCoverExcessPeriodUnit: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/ExcessPeriod/Unit"
+PersonalAccidentCoverCoverDetailAdditionalCoverExcessPeriodType: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/ExcessPeriod/Type"
+  Value: ""
+  ShortDescription: ""
+PersonalAccidentCoverCoverDetailAdditionalCoverExcessPeriodTypeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/ExcessPeriod/Type/Value"
+PersonalAccidentCoverCoverDetailAdditionalCoverExcessPeriodTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/ExcessPeriod/Type/ShortDescription"
+PersonalAccidentCoverCoverDetailAdditionalCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/ExcludedInd"
+  Value: ""
+PersonalAccidentCoverCoverDetailAdditionalCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/AdditionalCover/ExcludedInd/Value"
+PersonalAccidentCoverCoverDetailExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/ExcludedInd"
+  Value: ""
+PersonalAccidentCoverCoverDetailExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/CoverDetail/ExcludedInd/Value"
+PersonalAccidentCoverGroupDetail: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail"
+  Id: ""
+  NoOfEmployees: ""
+  Wages: ""
+  Notes: ""
+PersonalAccidentCoverGroupDetailId: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/Id"
+PersonalAccidentCoverGroupDetailEmploymentTypeCode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/EmploymentTypeCode"
+  Value: ""
+  ShortDescription: ""
+  Description: ""
+PersonalAccidentCoverGroupDetailEmploymentTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/EmploymentTypeCode/Value"
+PersonalAccidentCoverGroupDetailEmploymentTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/EmploymentTypeCode/ShortDescription"
+PersonalAccidentCoverGroupDetailEmploymentTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/EmploymentTypeCode/Description"
+PersonalAccidentCoverGroupDetailNoOfEmployees: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/NoOfEmployees"
+PersonalAccidentCoverGroupDetailWages: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/Wages"
+PersonalAccidentCoverGroupDetailActivity: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/Activity"
+PersonalAccidentCoverGroupDetailActivityCode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/Activity/Code"
+  Value: ""
+  ShortDescription: ""
+  Description: ""
+PersonalAccidentCoverGroupDetailActivityCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/Activity/Code/Value"
+PersonalAccidentCoverGroupDetailActivityCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/Activity/Code/ShortDescription"
+PersonalAccidentCoverGroupDetailActivityCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/Activity/Code/Description"
+PersonalAccidentCoverGroupDetailIndividualDetail: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/IndividualDetail"
+  FirstForename: ""
+  Surname: ""
+PersonalAccidentCoverGroupDetailIndividualDetailTitleCode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/IndividualDetail/TitleCode"
+  Value: ""
+  ShortDescription: ""
+PersonalAccidentCoverGroupDetailIndividualDetailTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/IndividualDetail/TitleCode/Value"
+PersonalAccidentCoverGroupDetailIndividualDetailTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/IndividualDetail/TitleCode/ShortDescription"
+PersonalAccidentCoverGroupDetailIndividualDetailFirstForename: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/IndividualDetail/FirstForename"
+PersonalAccidentCoverGroupDetailIndividualDetailSurname: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/IndividualDetail/Surname"
+PersonalAccidentCoverGroupDetailCoverBasis: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/CoverBasis"
+PersonalAccidentCoverGroupDetailCoverBasisBasisCode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/CoverBasis/BasisCode"
+  Value: ""
+  ShortDescription: ""
+PersonalAccidentCoverGroupDetailCoverBasisBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/CoverBasis/BasisCode/Value"
+PersonalAccidentCoverGroupDetailCoverBasisBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/CoverBasis/BasisCode/ShortDescription"
+PersonalAccidentCoverGroupDetailCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/CoverDetail"
+PersonalAccidentCoverGroupDetailCoverDetailCode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/CoverDetail/Code"
+  Value: ""
+  ShortDescription: ""
+  Description: ""
+PersonalAccidentCoverGroupDetailCoverDetailCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/CoverDetail/Code/Value"
+PersonalAccidentCoverGroupDetailCoverDetailCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/CoverDetail/Code/ShortDescription"
+PersonalAccidentCoverGroupDetailCoverDetailCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/CoverDetail/Code/Description"
+PersonalAccidentCoverGroupDetailCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/CoverDetail/SumInsured"
+  Amount: ""
+  Multiplier: ""
+PersonalAccidentCoverGroupDetailCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/CoverDetail/SumInsured/Amount"
+PersonalAccidentCoverGroupDetailCoverDetailSumInsuredMultiplier: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/CoverDetail/SumInsured/Multiplier"
+PersonalAccidentCoverGroupDetailContinentalScaleCover: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/ContinentalScaleCover"
+PersonalAccidentCoverGroupDetailContinentalScaleCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/ContinentalScaleCover/CoverRequiredInd"
+  Value: ""
+PersonalAccidentCoverGroupDetailContinentalScaleCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/ContinentalScaleCover/CoverRequiredInd/Value"
+PersonalAccidentCoverGroupDetailContinentalScaleCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/ContinentalScaleCover/ExcludedInd"
+  Value: ""
+  Description: ""
+PersonalAccidentCoverGroupDetailContinentalScaleCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/ContinentalScaleCover/ExcludedInd/Value"
+PersonalAccidentCoverGroupDetailContinentalScaleCoverExcludedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/ContinentalScaleCover/ExcludedInd/Description"
+PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCover: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/TemporaryTotalDisablementCover"
+PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/TemporaryTotalDisablementCover/ExcludedInd"
+  Value: ""
+PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/TemporaryTotalDisablementCover/ExcludedInd/Value"
+PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefit: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/TemporaryTotalDisablementCover/WeeklyBenefit"
+  Amount: ""
+  Percent: ""
+PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitAmount: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/TemporaryTotalDisablementCover/WeeklyBenefit/Amount"
+PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitPercent: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/TemporaryTotalDisablementCover/WeeklyBenefit/Percent"
+PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitWaitingPeriod: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/TemporaryTotalDisablementCover/WeeklyBenefit/WaitingPeriod"
+  Unit: ""
+PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitWaitingPeriodUnit: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/TemporaryTotalDisablementCover/WeeklyBenefit/WaitingPeriod/Unit"
+PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitDuration: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/TemporaryTotalDisablementCover/WeeklyBenefit/Duration"
+  Unit: ""
+PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitDurationUnit: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/TemporaryTotalDisablementCover/WeeklyBenefit/Duration/Unit"
+PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverTemporaryPartialDisablementCover: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/TemporaryTotalDisablementCover/TemporaryPartialDisablementCover"
+PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverTemporaryPartialDisablementCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/TemporaryTotalDisablementCover/TemporaryPartialDisablementCover/CoverRequiredInd"
+  Value: ""
+PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverTemporaryPartialDisablementCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/TemporaryTotalDisablementCover/TemporaryPartialDisablementCover/CoverRequiredInd/Value"
+PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverTemporaryPartialDisablementCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/TemporaryTotalDisablementCover/TemporaryPartialDisablementCover/ExcludedInd"
+  Value: ""
+PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverTemporaryPartialDisablementCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/TemporaryTotalDisablementCover/TemporaryPartialDisablementCover/ExcludedInd/Value"
+PersonalAccidentCoverGroupDetailNotes: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/GroupDetail/Notes"
+PersonalAccidentCoverEndorsement: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Endorsement"
+  ReasonApplied: ""
+  ShortWording: ""
+  Wording: ""
+PersonalAccidentCoverEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Endorsement/ReasonApplied"
+PersonalAccidentCoverEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Endorsement/ShortWording"
+PersonalAccidentCoverEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Endorsement/Wording"
+PersonalAccidentCoverPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown"
+  Percent: ""
+  CalculationAmount: ""
+  BasedOnAmount: ""
+  RunningTotal: ""
+  GrossAmount: ""
+  Amount: ""
+  BrokerageAmount: ""
+  BrokeragePercent: ""
+  IPTAmount: ""
+  IPTPercent: ""
+  VATAmount: ""
+PersonalAccidentCoverPremiumQuoteBreakdownTypeCode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/TypeCode"
+  Value: ""
+  ShortDescription: ""
+PersonalAccidentCoverPremiumQuoteBreakdownTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/TypeCode/Value"
+PersonalAccidentCoverPremiumQuoteBreakdownTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/TypeCode/ShortDescription"
+PersonalAccidentCoverPremiumQuoteBreakdownReasonCode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/ReasonCode"
+  Value: ""
+  ShortDescription: ""
+  Description: ""
+PersonalAccidentCoverPremiumQuoteBreakdownReasonCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/ReasonCode/Value"
+PersonalAccidentCoverPremiumQuoteBreakdownReasonCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/ReasonCode/ShortDescription"
+PersonalAccidentCoverPremiumQuoteBreakdownReasonCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/ReasonCode/Description"
+PersonalAccidentCoverPremiumQuoteBreakdownPercent: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/Percent"
+PersonalAccidentCoverPremiumQuoteBreakdownCalculationAmount: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/CalculationAmount"
+PersonalAccidentCoverPremiumQuoteBreakdownBasedOnAmount: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/BasedOnAmount"
+PersonalAccidentCoverPremiumQuoteBreakdownRunningTotal: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/RunningTotal"
+PersonalAccidentCoverPremiumQuoteBreakdownDisplayFlagInd: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/DisplayFlagInd"
+  Value: ""
+PersonalAccidentCoverPremiumQuoteBreakdownDisplayFlagIndValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/DisplayFlagInd/Value"
+PersonalAccidentCoverPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/GrossAmount"
+PersonalAccidentCoverPremiumQuoteBreakdownAmount: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/Amount"
+PersonalAccidentCoverPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/BrokerageAmount"
+PersonalAccidentCoverPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/BrokeragePercent"
+PersonalAccidentCoverPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/IPTAmount"
+PersonalAccidentCoverPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/IPTPercent"
+PersonalAccidentCoverPremiumQuoteBreakdownVATAmount: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/VATAmount"
+PersonalAccidentCoverPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+PersonalAccidentCoverPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PremiumQuoteBreakdown/MinAppliedInd/Value"
+PersonalAccidentCoverNotes: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Notes"
+PersonalAccidentCoverInformation: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Information"
+  Description: ""
+PersonalAccidentCoverInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Information/Description"
+PersonalAccidentCoverAttachment: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Attachment"
+  URI: ""
+PersonalAccidentCoverAttachmentURI: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/Attachment/URI"
+PersonalAccidentCoverPriorInsurer: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PriorInsurer"
+  CompanyName: ""
+PersonalAccidentCoverPriorInsurerCode: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PriorInsurer/Code"
+  ListOwner: ""
+  ListNo: ""
+  Value: ""
+  ShortDescription: ""
+  Description: ""
+PersonalAccidentCoverPriorInsurerCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PriorInsurer/Code/ListOwner"
+PersonalAccidentCoverPriorInsurerCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PriorInsurer/Code/ListNo"
+PersonalAccidentCoverPriorInsurerCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PriorInsurer/Code/Value"
+PersonalAccidentCoverPriorInsurerCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PriorInsurer/Code/ShortDescription"
+PersonalAccidentCoverPriorInsurerCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PriorInsurer/Code/Description"
+PersonalAccidentCoverPriorInsurerCompanyName: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/PriorInsurer/CompanyName"
+PersonalAccidentCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/ExcludedInd"
+  Value: ""
+PersonalAccidentCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "PersonalAccidentCover/ExcludedInd/Value"

@@ -1,0 +1,21 @@
+datamodel
+  element 'Financials'
+    element 'Excess'
+       field :name => 'Amount', :stype => 'number', :mask => 'money'
+    endelement
+    element 'SumInsured'
+       field :name => 'Amount', :stype => 'number', :mask => 'money'
+    endelement
+    element 'PremiumQuoteBreakdown'
+       field :name => 'GrossAmount', :stype => 'number', :mask => 'money'
+       field :name => 'BrokerageAmount', :stype => 'number', :mask => 'money'
+       field :name => 'BrokeragePercent', :stype => 'number', :mask => 'percent'
+       field :name => 'IPTAmount', :stype => 'number', :mask => 'money'
+       field :name => 'IPTPercent', :stype => 'number', :mask => 'percent'
+    endelement
+  endelement
+
+  coverage 'FireTheft'
+    field :name => 'Financials', :ctype => 'Financials'
+  endcoverage
+enddatamodel

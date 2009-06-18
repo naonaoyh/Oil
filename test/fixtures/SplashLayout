@@ -1,0 +1,45 @@
+layout 24
+    header
+      widget :logo
+      endwidget 
+    endheader
+
+    columns
+    
+    column 1
+      product_menu [:van, :tradesman, :businessfromhome, :residentialproperty, :commercialproperty, :shop, :officesurgery, :hotel, :pubrestaurant]
+    endcolumn
+    
+    column 2
+      panel
+      	widget :carousel
+        endwidget
+      endpanel
+      panel
+      	widget :slidingContainer
+        endwidget
+      endpanel
+      panel
+      	panel :Percent55
+	  teaser :crossSellPersonalLines
+	endpanel
+	panel :Right
+	  teaser :goodDealbetter
+	endpanel
+      endpanel
+    endcolumn
+    
+    column 3
+      teaser :crossSellCommercialLines
+    endcolumn
+    
+    endcolumns
+
+    footer
+      widget :siteMap
+      endwidget
+      widget :legalFooter
+      endwidget
+    endfooter
+    
+endlayout 

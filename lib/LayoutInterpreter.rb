@@ -160,7 +160,21 @@ class LayoutInterpreter < DslContext
       dsl << "hideFields \"#{args[1][:hide]}\"\n" if args[1][:hide]
       dsl << "columns \"#{args[1][:columns]}\"\n" if args[1][:columns]
     end
-    dsl << @contents.to_s
+    #if a use statement accompanies the entity clause in a layout then take this
+    #in preference to using the product level view for the entity
+    if (args[1] and args[1][:use])
+      dsl << "entity :#{args[0]}\nuse #{interpretUse(args[1][:use])}\nendentity"
+    else
+      dsl << @contents.to_s
+    end
     @erb << CoverageInterpreter.execute(dsl, args[1])
+  end
+
+  def interpretUse(use)
+    result = ''
+    use.each do |e|
+      result << "#{(e == use.first ? '':',')}:#{e}"
+    end
+    result
   end
 end

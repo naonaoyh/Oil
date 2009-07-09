@@ -1,5 +1,6 @@
 require 'set'
 require File.join(File.dirname(__FILE__),'DSLContext')
+require 'Marshaller'
 
 #create class that fills in for the RAILS class when rails is not around, e.g. when testing
 #when RAILS is around this will have no effect
@@ -7,12 +8,14 @@ class HashWithIndifferentAccess < Hash
 end
 
 class CoverageInterpreter < DslContext
-
-  bubble :than, :is, :list, :the, :to, :at, :it, :end
+  include Marshaller
   
+  bubble :than, :is, :list, :the, :to, :at, :it, :end
+  PRODUCTMODELS = Hash.new
   def initialize(*args)
     @columns = 1
     @hidden_fields = Set.new
+    @modelsLoaded = false
   end
   
   def getResult
@@ -47,6 +50,7 @@ class CoverageInterpreter < DslContext
   end
   
   def use(*args)
+    #puts "INTO USE WITH:#{args}"
     #the test on hidden_fields property is a bit too brutal in that it cuts out a whole part of the tree
     #it serves to provide the same hiding capability as we had in the iteration earlier this day
     #but more consideration especially around individual field level restriction needs to be considered
@@ -57,7 +61,11 @@ class CoverageInterpreter < DslContext
     # If the last argument is a hash we assume it's a hash of overrides which we remove
     # and merge in later.
     args_hash = nil
-    args_hash = args.pop if args.last.class.name == 'Hash'
+    reached_leaf_nodes = false
+    if args.last.class.name == 'Hash'
+      args_hash = args.pop
+      reached_leaf_nodes = true
+    end
     
     #now figure out whether the last arg above leads to an empty hash
     #not strictly empty since every hash has an xpath property of the position in the class hierarchy
@@ -73,6 +81,7 @@ class CoverageInterpreter < DslContext
     
     if (myHash.length == 1)
       specificProperty = true
+      reached_leaf_nodes = true
       lastArg = args.pop
       myHash = @prdhash["#{@argName}#{args}"]
       # Since we are delegating to our parent definition we look at that for a type
@@ -129,9 +138,46 @@ class CoverageInterpreter < DslContext
         end
       end
     end    
-    @erb << '<% end %>' unless specific_widget == nil    
+    @erb << '<% end %>' unless specific_widget == nil
+
+    if (!@modelsLoaded)
+      req_stmt = deriveActiveRecordDefinitionOfProduct('Telenexus')
+      eval(req_stmt)
+      @modelsLoaded = true
+    end
+    if (args.length > 0 and !reached_leaf_nodes)
+      children = walk_class_hierarchy("#{@argName}#{args}")
+      if (children.length > 0)
+        #puts "walking hierarchy for #{@argName}#{args}"
+        children.each do |c|
+          myHash = @prdhash["#{c}"]
+          node_xpath = myHash[:xpath]
+          arr = node_xpath.split('/')
+          arr.shift
+          #puts "use is:#{arr}"
+          use("#{arr}")
+        end
+      end
+    end
   end
-   
+
+  def deriveActiveRecordDefinitionOfProduct(product)
+      if (PRODUCTMODELS.has_key?(product))
+        productModel = PRODUCTMODELS[product.to_sym]
+      else
+        require 'ProductInterpreter'
+        oilfile = File.join("#{DY_MODELS}/#{product}/DSL/product.oil")
+        open(oilfile) {|f| @contents = f.read }
+        dsl = @contents.to_s
+        if (!dsl.include?("product :#{product}"))
+          raise "#{DY_MODELS}/#{product}/DSL/product.oil does NOT contain a product defintion for #{product}"
+        end
+        productModel = ProductInterpreter.execute(dsl)
+        PRODUCTMODELS[product.to_sym] = productModel
+      end
+      productModel
+  end
+
   private
   def begin_erb(dsl_root, *args)
     @widgets = Set.new

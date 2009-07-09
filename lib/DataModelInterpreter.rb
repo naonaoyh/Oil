@@ -21,9 +21,19 @@ class DataModelInterpreter < DslContext
   def enddatamodel(*args)
   end
 
-  def createNewElement(name,coverage,parent,type)
+  def createNewElement(name,ctype,coverage,parent,type) #the type tells us if it is an entity, or coverage, or nil if a simple element
     e = ElementFactory(name,coverage,parent,type)
     @elementTree.last.children.push e if @elementTree.last and @elementTree.length > 0
+    if ctype and ctype != name
+      #copy fields from complex type definition to be used in this clone
+      @elements.each do |node|
+        if node.name == ctype
+          e.fields = node.fields
+          e.children = node.children
+          e.parent = @elementTree.last
+        end
+      end
+    end
     @elementTree.push e
   end
 
@@ -40,7 +50,7 @@ class DataModelInterpreter < DslContext
   end
 
   def element(*args)
-    createNewElement(args[0],false,@elementTree.last,nil)
+    createNewElement(args[0],nil,false,@elementTree.last,nil)
   end
 
   def endelement(*args)
@@ -48,7 +58,7 @@ class DataModelInterpreter < DslContext
   end
 
   def coverage(*args)
-    createNewElement(args[0]+ "Coverage",true,@elementTree.last,"coverages")
+    createNewElement(args[0]+ "Coverage",nil,true,@elementTree.last,"coverages")
   end
 
   def endcoverage(*args)
@@ -56,7 +66,7 @@ class DataModelInterpreter < DslContext
   end
 
   def entity(*args)
-    createNewElement(args[0],true,@elementTree.last,"entities")
+    createNewElement(args[0],nil,true,@elementTree.last,"entities")
   end
 
   def endentity(*args)
@@ -70,7 +80,9 @@ class DataModelInterpreter < DslContext
       else
         parent = @elementTree.last
       end
-      createNewElement(args[0][:ctype],false,parent,nil) #the parent is nil here since a complex type may be used by many coverages or entities
+      createNewElement(args[0][:name],args[0][:ctype],false,parent,nil)
+      #pop the tree since createNewElement pushes new element to the tree
+      #since has to work for enties and coverages
        @elementTree.pop
     else
       @elementTree.last.fields.push args[0]

@@ -167,7 +167,7 @@ class LayoutInterpreter < DslContext
     else
       dsl << @contents.to_s
     end
-    @erb << CoverageInterpreter.execute(dsl, args[1])
+    @erb << CoverageInterpreter.execute(dsl, args[1],@product)
   end
 
   def interpretUse(use)

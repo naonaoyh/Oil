@@ -8,6 +8,23 @@ class HashWithIndifferentAccess < Hash
 end
 
 class CoverageInterpreter < DslContext
+
+  def self.execute(*args)
+     
+    rules = polish_text(args[0])
+	#significant change to allow class instance variables to be set on the initialize, ahead
+	#of the evaluation of the DSL - allows dynamic props to be sent to the class
+	#see VPMSProductSchemaInterpreter, which gets a param from the package interpreter
+    inst = (args.length > 1) ? self.new(args.slice(1,1)) : self.new
+    inst.setProduct(args[2])
+    rules.each do |rule|
+      result = inst.instance_eval(rule)
+      #passes results as parm into code that was passed with call to execute (if any was)
+      yield result if block_given?
+    end
+    inst.getResult
+  end
+
   include Marshaller
   
   bubble :than, :is, :list, :the, :to, :at, :it, :end
@@ -48,7 +65,11 @@ class CoverageInterpreter < DslContext
   def endentity(*args)
     end_erb
   end
-  
+
+  def setProduct(product)
+    @product = product
+  end
+
   def use(*args)
     #puts "INTO USE WITH:#{args}"
     #the test on hidden_fields property is a bit too brutal in that it cuts out a whole part of the tree
@@ -141,7 +162,7 @@ class CoverageInterpreter < DslContext
     @erb << '<% end %>' unless specific_widget == nil
 
     if (!@modelsLoaded)
-      req_stmt = deriveActiveRecordDefinitionOfProduct('Telenexus')
+      req_stmt = deriveActiveRecordDefinitionOfProduct("#{@product}")
       eval(req_stmt)
       @modelsLoaded = true
     end

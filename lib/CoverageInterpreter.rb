@@ -38,7 +38,7 @@ class CoverageInterpreter < DslContext
   def getResult
     widgets = ""
     @widgets.each { |k| widgets << ",'#{k}'" }
-    @erb = "<%= widgets(#{widgets[1..-1]}) %>\n" + @erb unless widgets.length == 0
+    @erb = "<%= ci_widgets(#{widgets[1..-1]}) %>\n" + @erb unless widgets.length == 0
     @erb
   end
 

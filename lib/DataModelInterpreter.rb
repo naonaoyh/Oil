@@ -49,6 +49,18 @@ class DataModelInterpreter < DslContext
     return e
   end
 
+  def lov(*args)
+
+  end
+
+  def endlov(*args)
+
+  end
+
+  def collection(*args)
+
+  end
+  
   def element(*args)
     createNewElement(args[0],nil,false,@elementTree.last,nil)
   end

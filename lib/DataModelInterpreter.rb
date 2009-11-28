@@ -49,14 +49,6 @@ class DataModelInterpreter < DslContext
     return e
   end
 
-  def lov(*args)
-
-  end
-
-  def endlov(*args)
-
-  end
-
   def collection(*args)
 
   end

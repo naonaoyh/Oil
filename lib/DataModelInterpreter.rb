@@ -4,6 +4,7 @@ require 'Element'
 
 class DataModelInterpreter < DslContext
   def initialize
+    @collections = Hash.new
     @elements = []
     @elementTree = []
     @depth=0
@@ -11,7 +12,9 @@ class DataModelInterpreter < DslContext
 
   def getResult
     #dumpParsedStructure
-    result = @elements
+    result = []
+    result[0] = @elements
+    result[1] = @collections
     result
   end
   # --parse - implement the grammar
@@ -50,7 +53,7 @@ class DataModelInterpreter < DslContext
   end
 
   def collection(*args)
-
+      @collections.merge!(args[0])
   end
   
   def element(*args)
